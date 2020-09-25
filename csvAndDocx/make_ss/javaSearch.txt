@@ -1,0 +1,764 @@
+===fileLvl===Footer.java  (1 usage found)
+===methodLvl===getConfig()  (1 usage found)
+===msgLvl===21addErrorMsg(" Error - accessing PCPConfig.properties :" + e.getMessage());
+===fileLvl===Loginlet.java  (3 usages found)
+===methodLvl===doLoginAction()  (1 usage found)
+===msgLvl===71addErrorMsg(" Please enter User ID & Password. ");
+===methodLvl===validateFiels()  (2 usages found)
+===msgLvl===22addErrorMsg(" Please enter 'User ID' .");
+===msgLvl===26addErrorMsg(" Please enter 'Password' .");
+===fileLvl===Main.java  (9 usages found)
+===methodLvl===doDeleteCurrentDueDateAction()  (2 usages found)
+===msgLvl===58addInfoMsg("current due date deleted!");
+===msgLvl===60addErrorMsg(e.getMessage());
+===methodLvl===doRunAction()  (3 usages found)
+===msgLvl===69addErrorMsg(" Please 'Enable Night Auto-Batch Match Job'  first . ");
+===msgLvl===78addInfoMsg(strMsg);
+===msgLvl===81addInfoMsg(msg);
+===methodLvl===doSendAutoBatchNightJobMail()  (4 usages found)
+===msgLvl===239addInfoMsg(strMsg);
+===msgLvl===249addInfoMsg(msg);
+===msgLvl===260addErrorMsg("Error - sending email.[ SMTP Host not found :" + root.getMessage() + "].");
+===msgLvl===270addInfoMsg(" 'Night Auto Batch match job' already runned , but email notification sent failed .");
+===fileLvl===PageCodeBase.java  (4 usages found)
+===methodLvl===addErrorMsg(String)  (1 usage found)
+===msgLvl===154protected void addErrorMsg(String detail) {
+===methodLvl===addExceptionMsg(Throwable)  (1 usage found)
+===msgLvl===171addErrorMsg(getRootMessage(e));
+===methodLvl===addInfoMsg(String)  (1 usage found)
+===msgLvl===175protected void addInfoMsg(String detail) {
+===methodLvl===addWarnMsg(String)  (1 usage found)
+===msgLvl===200protected void addWarnMsg(String detail) {
+===fileLvl===PageAccess.java  (1 usage found)
+===methodLvl===doLinkDeleteAction()  (1 usage found)
+===msgLvl===172addInfoMsg("Record deleted .");
+===fileLvl===CardProfileEnquiry.java  (1 usage found)
+===methodLvl===doRetrieveAction()  (1 usage found)
+===msgLvl===36addInfoMsg(" No record was found for display in the below list.");
+===fileLvl===SectionEnquiry.java  (1 usage found)
+===methodLvl===onPageLoadBegin(FacesContext)  (1 usage found)
+===msgLvl===38addInfoMsg(" No record was found for display in the below list.");
+===fileLvl===TeamEnquiry.java  (3 usages found)
+===methodLvl===doRetrieveAction()  (3 usages found)
+===msgLvl===36addInfoMsg(" No record was found for display in the below list.");
+===msgLvl===44addInfoMsg(" No record was found for display in the below list.");
+===msgLvl===58addInfoMsg(" No record was found for display in the below list.");
+===fileLvl===TransHistoryEnquiry.java  (2 usages found)
+===methodLvl===doRetrieveAction()  (2 usages found)
+===msgLvl===107addErrorMsg(" Nothing to query.");
+===msgLvl===127addInfoMsg(" No record was found for display in the below list.");
+===fileLvl===AddUsercode.java  (18 usages found)
+===methodLvl===doComfirmAction()  (4 usages found)
+===msgLvl===123addErrorMsg(" Total of user code amounts should be equal to 'Billing Amount'.");
+===msgLvl===133addErrorMsg(" No payment no. , so can't change user code.");
+===msgLvl===147addErrorMsg(" Following  UserCode not found in GFMIS system ,if you still like to proceed , please press confirm again .");
+===msgLvl===157addErrorMsg("The usercode format is invalid!");
+===methodLvl===doDeleteAction()  (1 usage found)
+===msgLvl===291addErrorMsg("IndexOutOfBoundsException :" + e.getMessage());
+===methodLvl===notifyCardUser()  (6 usages found)
+===msgLvl===552addInfoMsg(" Email Notification sent to :" + creator.getUsername());
+===msgLvl===555addErrorMsg(e.getMessage());
+===msgLvl===558addErrorMsg(" P-Card User has't a valid email address .");
+===msgLvl===561addErrorMsg(" Error accessing Database.");
+===msgLvl===572addErrorMsg("Error - sending email.[ SMTP Host not found :" + root.getMessage() + "].");
+===msgLvl===583addErrorMsg(" Error reading Email Notification config.");
+===methodLvl===validateUsercode(String[])  (2 usages found)
+===msgLvl===269msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]+" contain special character!");
+===msgLvl===273msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===methodLvl===validateUsercodeExist(String[])  (1 usage found)
+===msgLvl===226msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===methodLvl===validateUsercodeFormat(String[])  (2 usages found)
+===msgLvl===246msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]+" contain special character!");
+===msgLvl===250msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===methodLvl===validateUsercodes()  (2 usages found)
+===msgLvl===488msgs.addErrorMsg(" [ row index : " + (rowIndex + 1) + " ] :" + ucEntry.getUsercode());
+===msgLvl===490msgs.addErrorMsg(" [ row index : " + (rowIndex + 1) + " ] :" + ucEntry.getUsercode());
+===fileLvl===ApproveCardTrans.java  (14 usages found)
+===methodLvl===doRetrieveAction()  (1 usage found)
+===msgLvl===450addInfoMsg(" No P-Card statement of this bank needed your approval.  Please switch to the other bank to check if there are any outstanding approval tasks.");
+===methodLvl===notifyEuClerks()  (6 usages found)
+===msgLvl===704addErrorMsg(" Can't send email notification [ cause : No section infomation found ].");
+===msgLvl===736addErrorMsg("Error - sending email.[ SMTP Host not found :" + root.getMessage() + "].");
+===msgLvl===764addInfoMsg("P-Card Supervisor's approval task completed.  Email was sent to Finance Section.");
+===msgLvl===768addWarnMsg("P-Card Supervisor's approval task completed.  However, no email was sent to Finance Section, please contact AOI(E) at 2601-8037.");
+===msgLvl===772addErrorMsg(" Error - accessing Database .");
+===msgLvl===778addErrorMsg(" Error - reading Email Notification Config.");
+===methodLvl===notifyHolder(String)  (7 usages found)
+===msgLvl===785addErrorMsg(" Can't send email notification [ cause : No section infomation found ].");
+===msgLvl===796addInfoMsg(" Email notification sent  to :" + holder.getUsername());
+===msgLvl===799addErrorMsg(e.getMessage());
+===msgLvl===802addErrorMsg(" invalid email found :" + holder.getEmail() + "[" + holder.getUsername() + "]");
+===msgLvl===805addWarnMsg(" P-Card Holder profile not found.");
+===msgLvl===809addErrorMsg(" Error - accessing Database .");
+===msgLvl===818addErrorMsg(" Error - reading Email Notification Config.");
+===fileLvl===BillTransDetails.java  (7 usages found)
+===methodLvl===doConfirmAction()  (2 usages found)
+===msgLvl===70addErrorMsg(" Total Amount doesn't equal to Billing Amount .");
+===msgLvl===94addErrorMsg(" Following  UserCode not found in PCS system & not match up to predefined formats , if you still like to proceed , please press confirm again .");
+===methodLvl===doDeleteAction()  (1 usage found)
+===msgLvl===147addErrorMsg("IndexOutOfBoundsException :" + e.getMessage());
+===methodLvl===validateUsercodes(ArrayList)  (2 usages found)
+===msgLvl===382msgs.addErrorMsg(" [ row index : " + (rowIndex + 1) + " ] :" + ucEntry.getUsercode());
+===msgLvl===384msgs.addErrorMsg(" [ row index : " + (rowIndex + 1) + " ] :" + ucEntry.getUsercode());
+===methodLvl===validateUsercodes(String[])  (2 usages found)
+===msgLvl===404msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===msgLvl===406msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===fileLvl===ChangePCSUsercode.java  (18 usages found)
+===methodLvl===doComfirmAction()  (4 usages found)
+===msgLvl===255addErrorMsg(" Total of user code amounts should be equal to 'Billing Amount'.");
+===msgLvl===272addErrorMsg(" Following  UserCode not found in GFMIS system ,if you still like to proceed , please press confirm again .");
+===msgLvl===284addErrorMsg("The usercode format is invalid!");
+===msgLvl===337addErrorMsg("Save user code successfully!");
+===methodLvl===doDeleteAction()  (1 usage found)
+===msgLvl===425addErrorMsg("IndexOutOfBoundsException :" + e.getMessage());
+===methodLvl===notifyCardUser()  (6 usages found)
+===msgLvl===707addInfoMsg(" Email Notification sent to :" + creator.getUsername());
+===msgLvl===710addErrorMsg(e.getMessage());
+===msgLvl===713addErrorMsg(" P-Card User has't a valid email address .");
+===msgLvl===716addErrorMsg(" Error accessing Database.");
+===msgLvl===727addErrorMsg("Error - sending email.[ SMTP Host not found :" + root.getMessage() + "].");
+===msgLvl===738addErrorMsg(" Error reading Email Notification config.");
+===methodLvl===validateUsercode(String[])  (2 usages found)
+===msgLvl===402msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]+" contain special character!");
+===msgLvl===406msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===methodLvl===validateUsercodeExist(String[])  (1 usage found)
+===msgLvl===357msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===methodLvl===validateUsercodeFormat(String[])  (2 usages found)
+===msgLvl===378msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]+" contain special character!");
+===msgLvl===383msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===methodLvl===validateUsercodes()  (2 usages found)
+===msgLvl===643msgs.addErrorMsg(" [ row index : " + (rowIndex + 1) + " ] :" + ucEntry.getUsercode());
+===msgLvl===645msgs.addErrorMsg(" [ row index : " + (rowIndex + 1) + " ] :" + ucEntry.getUsercode());
+===fileLvl===ChangeUsercode.java  (18 usages found)
+===methodLvl===doComfirmAction()  (4 usages found)
+===msgLvl===137addErrorMsg(" Total of user code amounts should be equal to 'Billing Amount'.");
+===msgLvl===148addErrorMsg(" No payment no. , so can't change user code.");
+===msgLvl===163addErrorMsg(" Following  UserCode not found in GFMIS system ,if you still like to proceed , please press confirm again .");
+===msgLvl===173addErrorMsg("The usercode format is invalid!");
+===methodLvl===doDeleteAction()  (1 usage found)
+===msgLvl===300addErrorMsg("IndexOutOfBoundsException :" + e.getMessage());
+===methodLvl===notifyCardUser()  (6 usages found)
+===msgLvl===567addInfoMsg(" Email Notification sent to :" + creator.getUsername());
+===msgLvl===570addErrorMsg(e.getMessage());
+===msgLvl===573addErrorMsg(" P-Card User has't a valid email address .");
+===msgLvl===576addErrorMsg(" Error accessing Database.");
+===msgLvl===587addErrorMsg("Error - sending email.[ SMTP Host not found :" + root.getMessage() + "].");
+===msgLvl===598addErrorMsg(" Error reading Email Notification config.");
+===methodLvl===validateUsercode(String[])  (2 usages found)
+===msgLvl===278msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]+" contain special character!");
+===msgLvl===282msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===methodLvl===validateUsercodeExist(String[])  (1 usage found)
+===msgLvl===234msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===methodLvl===validateUsercodeFormat(String[])  (2 usages found)
+===msgLvl===254msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]+" contain special character!");
+===msgLvl===259msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===methodLvl===validateUsercodes()  (2 usages found)
+===msgLvl===503msgs.addErrorMsg(" [ row index : " + (rowIndex + 1) + " ] :" + ucEntry.getUsercode());
+===msgLvl===505msgs.addErrorMsg(" [ row index : " + (rowIndex + 1) + " ] :" + ucEntry.getUsercode());
+===fileLvl===CheckTransFromAllHolders.java  (15 usages found)
+===methodLvl===doRejectAction()  (1 usage found)
+===msgLvl===218addErrorMsg(" Server is busy.");
+===methodLvl===doRetrieveAction()  (1 usage found)
+===msgLvl===263addInfoMsg(" No record was found for display in the below list.");
+===methodLvl===notifyHolders(String[])  (7 usages found)
+===msgLvl===518addErrorMsg("Can not find the holder's email. Email notify failed but transaction is updated!");
+===msgLvl===581addInfoMsg(msg);
+===msgLvl===584addErrorMsg(e.getMessage());
+===msgLvl===589addInfoMsg(" No Email notification sent  because No emails found .");
+===msgLvl===593addErrorMsg(" Error - accessing Database .");
+===msgLvl===604addErrorMsg("Error - sending email .[ SMTP Host not found :" + root.getMessage() + "].");
+===msgLvl===614addErrorMsg(" Error - reading Email Notification Config.");
+===methodLvl===notifySupervisors(String, String[])  (6 usages found)
+===msgLvl===684addInfoMsg(msg);
+===msgLvl===687addErrorMsg(e.getMessage());
+===msgLvl===692addInfoMsg(" No Email notification sent  because No email of EU Supervisors  responsible for this section found .");
+===msgLvl===696addErrorMsg(" Error - accessing Database .");
+===msgLvl===707addErrorMsg("Error - sending email .[ SMTP Host not found :" + root.getMessage() + "].");
+===msgLvl===717addErrorMsg(" Error - reading Email Notification Config.");
+===fileLvl===ConfirmBankStatements.java  (16 usages found)
+===methodLvl===doCancelConfirm()  (1 usage found)
+===msgLvl===216addInfoMsg(" Status updated successfully.");
+===methodLvl===doConfirmAction()  (1 usage found)
+===msgLvl===304addInfoMsg(" Status updated successfully ; ");
+===methodLvl===doJob(PcardTopJob)  (1 usage found)
+===msgLvl===365addInfoMsg(" Update Status successfully. ");
+===methodLvl===doRejectOneAction()  (1 usage found)
+===msgLvl===417addInfoMsg(" Rejected successfully ; ");
+===methodLvl===doRetrieveAction()  (1 usage found)
+===msgLvl===518addInfoMsg(" No record was found for display in the below list. ");
+===methodLvl===notifyCardUsers(String[])  (6 usages found)
+===msgLvl===940addInfoMsg(" No Card Users to notify ; ");
+===msgLvl===945addErrorMsg(" Can't notify Card Users [ cause : No section infomation found ] .");
+===msgLvl===973addErrorMsg("Error - sending email.[ SMTP Host not found :" + root.getMessage() + "].");
+===msgLvl===1005addInfoMsg(tos);
+===msgLvl===1013addErrorMsg(" Error - accessing Database .");
+===msgLvl===1019addErrorMsg(" Error - reading Email Notification Config.");
+===methodLvl===notifySupervisor()  (5 usages found)
+===msgLvl===1029addErrorMsg(" Can't notify Card Supervisor [ cause : No section infomation found ] .");
+===msgLvl===1060addErrorMsg("Error - sending email.[ SMTP Host not found :" + root.getMessage() + "].");
+===msgLvl===1092addInfoMsg(tos);
+===msgLvl===1100addErrorMsg(" Error - accessing Database .");
+===msgLvl===1106addErrorMsg(" Error - reading Email Notification Config.");
+===fileLvl===DisputeForm.java  (3 usages found)
+===methodLvl===doConfirmAction()  (2 usages found)
+===msgLvl===118addErrorMsg(" Nothing to dispute ");
+===msgLvl===127addErrorMsg(" Please check one Transaction Fee record .");
+===methodLvl===handleFeeChanged(ValueChangeEvent)  (1 usage found)
+===msgLvl===393addErrorMsg(" Error - accessing DataBase.");
+===fileLvl===DisputeFormCitiBank.java  (1 usage found)
+===methodLvl===doConfirmAction()  (1 usage found)
+===msgLvl===111addErrorMsg(" Nothing to dispute ");
+===fileLvl===EditTfcode.java  (4 usages found)
+===methodLvl===doDeleteAction()  (1 usage found)
+===msgLvl===71addErrorMsg(" Error .");
+===methodLvl===doSaveAction()  (3 usages found)
+===msgLvl===97addErrorMsg(" Total of Amount is not equals to " + fee_amt + ", please fix amounts.");
+===msgLvl===104addErrorMsg(" Cost Centre Code 's length should be 4 or 0.");
+===msgLvl===138addInfoMsg(" Saved successfully. ");
+===fileLvl===GenPayFile.java  (6 usages found)
+===methodLvl===doAcceptAction()  (1 usage found)
+===msgLvl===151addErrorMsg(" Please check one record in 'List of File Reference' first ;");
+===methodLvl===doRemainAction()  (1 usage found)
+===msgLvl===138addErrorMsg("No remain usercode is generated at this moment.");
+===methodLvl===doRetrieveAction()  (1 usage found)
+===msgLvl===179addWarnMsg(" Please select the due date and retrieve.");
+===methodLvl===genIt(boolean, boolean)  (1 usage found)
+===msgLvl===233addWarnMsg(" Please select the due date and retrieve.");
+===methodLvl===reGenIt(String)  (2 usages found)
+===msgLvl===389addWarnMsg(" Please select the due date and retrieve.");
+===msgLvl===394addWarnMsg(" Please select the Bank and retrieve.");
+===fileLvl===InputUserCodePmsu.java  (18 usages found)
+===methodLvl===doConfirmAction()  (4 usages found)
+===msgLvl===130addErrorMsg(" Total of user code amounts should be equal to 'Billing Amount'.");
+===msgLvl===146addErrorMsg(" Following  UserCode not found in GFMIS system ,if you still like to proceed , please press confirm again .");
+===msgLvl===156addErrorMsg("The usercode format is invalid!");
+===msgLvl===163addErrorMsg(" No payment no. , so can't change user code.");
+===methodLvl===doDeleteAction()  (1 usage found)
+===msgLvl===294addErrorMsg("IndexOutOfBoundsException :" + e.getMessage());
+===methodLvl===notifyCardUser()  (6 usages found)
+===msgLvl===557addInfoMsg(" Email Notification sent to :" + creator.getUsername());
+===msgLvl===560addErrorMsg(e.getMessage());
+===msgLvl===563addErrorMsg(" P-Card User has't a valid email address .");
+===msgLvl===566addErrorMsg(" Error accessing Database.");
+===msgLvl===577addErrorMsg("Error - sending email.[ SMTP Host not found :" + root.getMessage() + "].");
+===msgLvl===588addErrorMsg(" Error reading Email Notification config.");
+===methodLvl===validateUsercode(String[])  (2 usages found)
+===msgLvl===272msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]+" contain special character!");
+===msgLvl===276msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===methodLvl===validateUsercodeExist(String[])  (1 usage found)
+===msgLvl===229msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===methodLvl===validateUsercodeFormat(String[])  (2 usages found)
+===msgLvl===249msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]+" contain special character!");
+===msgLvl===253msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===methodLvl===validateUsercodes()  (2 usages found)
+===msgLvl===505msgs.addErrorMsg(" [ row index : " + (rowIndex + 1) + " ] :" + ucEntry.getUsercode());
+===msgLvl===507msgs.addErrorMsg(" [ row index : " + (rowIndex + 1) + " ] :" + ucEntry.getUsercode());
+===fileLvl===MatchVerifyTrans.java  (63 usages found)
+===methodLvl===acceptAfter(Integer)  (1 usage found)
+===msgLvl===275addInfoMsg(" Accepted transaction moved up to 'Matched/Accepted/Disputed' List  ;");
+===methodLvl===AcceptPmsuData()  (1 usage found)
+===msgLvl===4369addInfoMsg(" Accepted transaction moved up to 'Matched/Accepted/Disputed' List  ;");
+===methodLvl===aucAfter(Integer)  (1 usage found)
+===msgLvl===379addInfoMsg(" Accepted transaction moved up to 'Matched/Accepted/Disputed' List  ;");
+===methodLvl===doAcceptAction()  (3 usages found)
+===msgLvl===556addErrorMsg(" Please one records in 'List of Outstanding Bank Transactions' first ;");
+===msgLvl===563addErrorMsg(" Can't Accept Disputed transactions  ;");
+===msgLvl===616addInfoMsg(" Accepted transaction moved up to 'Matched/Accepted/Disputed' List  ;");
+===methodLvl===doAcceptAction_Backup()  (6 usages found)
+===msgLvl===634addErrorMsg(" Please one records in 'List of Outstanding Bank Transactions' first ;");
+===msgLvl===641addErrorMsg(" Can't Accept Disputed transactions  ;");
+===msgLvl===647addErrorMsg(" Can't Accept this transaction.  (cause : This transaction 's description do not exist in 'Fee Name List' ) ;");
+===msgLvl===661addErrorMsg(" No Fee User code for this fee type found ;");
+===msgLvl===680addInfoMsg(" Accepted transaction moved up to 'Matched/Accepted/Disputed' List  ;");
+===msgLvl===699addInfoMsg(" Accepted transaction moved up to 'Matched/Accepted/Disputed' List  ;");
+===methodLvl===doButtonAcceptPMSUAction()  (2 usages found)
+===msgLvl===4063addErrorMsg(" Please one records in 'List of Outstanding PMSU Bank Transactions' first ;");
+===msgLvl===4071addErrorMsg(" Can't Accept Disputed transactions  ;");
+===methodLvl===doButtonCancelDisputePMSUAction()  (2 usages found)
+===msgLvl===4175addErrorMsg(" Please check one record in 'List of Outstanding PMSU Bank Transactions' at least first.");
+===msgLvl===4318addInfoMsg(rows.length + " Disputed Transactions cancelled .");
+===methodLvl===doButtonDisputePMSUAction()  (2 usages found)
+===msgLvl===4141addErrorMsg(" Please check one record in 'List of Outstanding PMSU Bank Transactions' first  ;");
+===msgLvl===4151addErrorMsg(" Can't dispute a Transaction Fee record. ");
+===methodLvl===doButtonGenDisputeFormPMSUAction()  (1 usage found)
+===msgLvl===4334addErrorMsg(" Please check a record for dispute ;");
+===methodLvl===doCancelDisputeAction()  (2 usages found)
+===msgLvl===807addErrorMsg(" Please check one record in 'List of Outstanding Bank Transactions' at least first.");
+===msgLvl===941addInfoMsg(rows.length + " Disputed Transactions cancelled .");
+===methodLvl===doCancelMatchAction()  (1 usage found)
+===msgLvl===961addErrorMsg("Please check one record  in 'List of Matched / Accepted / Disputed Transactions' first  ;");
+===methodLvl===doCancelVerifyAction()  (2 usages found)
+===msgLvl===1064addErrorMsg(" Please check some records in Matched / Accepted List.");
+===msgLvl===1094addInfoMsg(" Status updated successfully. ");
+===methodLvl===doChangePCSUserCodeAction()  (2 usages found)
+===msgLvl===513addErrorMsg(" Please one records in 'List of Outstanding Bank Transactions' first ;");
+===msgLvl===520addErrorMsg(" Can't Accept Disputed transactions  ;");
+===methodLvl===doConfirmAction()  (2 usages found)
+===msgLvl===1156addErrorMsg(" Your profile is no P-Card supervisor in DPAS. ");
+===msgLvl===1163addErrorMsg(" Pcard Holder can't submit transaction record to himself/herself. ");
+===methodLvl===doDisputeAction()  (2 usages found)
+===msgLvl===1230addErrorMsg(" Please check one record in 'List of Outstanding Bank Transactions' first  ;");
+===msgLvl===1240addErrorMsg(" Can't dispute a Transaction Fee record. ");
+===methodLvl===doGenDisputeFormAction()  (2 usages found)
+===msgLvl===1279addErrorMsg(" Please check a record for dispute ;");
+===msgLvl===1288addErrorMsg(" Can't print dispute form a non disputed transaction.");
+===methodLvl===doMatchAction()  (4 usages found)
+===msgLvl===1320addErrorMsg(" Please check one record in 'List of Outstanding Bank Transactions' first ;");
+===msgLvl===1326addErrorMsg(" Please check one record in 'List of Outstanding DPAS/CIS Transactions' first  ;");
+===msgLvl===1335addErrorMsg(" Can't Match a FEE or CHARGE  to payments ; "); 
+===msgLvl===1340addErrorMsg(" Can 't   match DISPUTED transaction to payments  ;");
+===methodLvl===doPMSUMatchAction()  (4 usages found)
+===msgLvl===1367addErrorMsg(" Please check one record in 'List of Outstanding PMSU Bank Transactions' first ;");
+===msgLvl===1373addErrorMsg(" Please check one record in 'List of Outstanding PMSU Transactions' first  ;");
+===msgLvl===1383addErrorMsg(" Can't Match a FEE or CHARGE  to payments ; "); 
+===msgLvl===1388addErrorMsg(" Can 't   match DISPUTED transaction to payments  ;");
+===methodLvl===doRejectToDPASAction()  (2 usages found)
+===msgLvl===731addErrorMsg(" Please select records in 'List of Outstanding DPAS Transactions' first ;");
+===msgLvl===740addInfoMsg(" Outstanding DPAS transaction is removed to DPAS system ;");
+===methodLvl===doRetrieveAction()  (2 usages found)
+===msgLvl===1538addInfoMsg(" No record was found for display in the below list.");
+===msgLvl===1542addInfoMsg(" No action is required.");
+===methodLvl===doSubmitAction_Backup()  (1 usage found)
+===msgLvl===1584addErrorMsg(" Please verify all transactions first ; ");
+===methodLvl===doVerifyAction()  (4 usages found)
+===msgLvl===1740addErrorMsg(" Please check some 'Match / Accepted'  record first. ");
+===msgLvl===1811addErrorMsg("Invalid usercode : "+uc1+", it should be uppercased!");
+===msgLvl===1893addErrorMsg("Invalid usercode : "+uc+" in row "+ (rows[i].intValue()+1)+" contain special character!");
+===msgLvl===1898addErrorMsg("Invalid usercode : "+uc+" in row "+ (rows[i].intValue()+1));
+===methodLvl===loadPcardHolderName(String)  (2 usages found)
+===msgLvl===154addErrorMsg(e.getMessage());
+===msgLvl===157addErrorMsg(e.getMessage());
+===methodLvl===middleHasDisputed(Integer[])  (1 usage found)
+===msgLvl===2611addErrorMsg(" Data changed, have you modified data at another page ?");
+===methodLvl===notifyHolder()  (6 usages found)
+===msgLvl===2645addInfoMsg(" Email notification sent to :" + holder.getUsername() + " ;");
+===msgLvl===2650addErrorMsg(e.getMessage());
+===msgLvl===2653addErrorMsg(" P-Card Holder  has't valid email address .");
+===msgLvl===2656addErrorMsg(" Error accessing Database.");
+===msgLvl===2667addErrorMsg(
+===msgLvl===2679addErrorMsg(" Error reading Email Notification config.");
+===methodLvl===notifySupervisor()  (5 usages found)
+===msgLvl===2688addErrorMsg(" Can't notify Card Supervisor [ cause : No section infomation found ] .");
+===msgLvl===2792addInfoMsg(validNames);
+===msgLvl===2800addErrorMsg(" Error - accessing Database .");
+===msgLvl===2806addErrorMsg(" Error - reading Email Notification Config.");
+===msgLvl===2814addErrorMsg("Error - sending email.[ SMTP Host not found :" + root.getMessage() + "].");
+===fileLvl===PcardDetailForCard.java  (1 usage found)
+===methodLvl===doRetrieveAction()  (1 usage found)
+===msgLvl===221addInfoMsg(" No record was found for display in the below list.");
+===fileLvl===PcardDetailForSection.java  (15 usages found)
+===methodLvl===doRetrieveAction()  (1 usage found)
+===msgLvl===591addInfoMsg(" No record was found for display in the below list.");
+===methodLvl===notifyEuClerks(String)  (6 usages found)
+===msgLvl===391addInfoMsg(msg);
+===msgLvl===394addErrorMsg(e.getMessage());
+===msgLvl===399addInfoMsg(" No Email notification sent  because No email of EU Supervisors  responsible for this section found .");
+===msgLvl===403addErrorMsg(" Error - accessing Database .");
+===msgLvl===414addErrorMsg("Error - sending email .[ SMTP Host not found :" + root.getMessage() + "].");
+===msgLvl===424addErrorMsg(" Error - reading Email Notification Config.");
+===methodLvl===notifyHolders(String[])  (6 usages found)
+===msgLvl===472addInfoMsg(msg);
+===msgLvl===475addErrorMsg(e.getMessage());
+===msgLvl===480addInfoMsg(" No Email notification sent  because No emails found .");
+===msgLvl===484addErrorMsg(" Error - accessing Database .");
+===msgLvl===495addErrorMsg("Error - sending email .[ SMTP Host not found :" + root.getMessage() + "].");
+===msgLvl===505addErrorMsg(" Error - reading Email Notification Config.");
+===methodLvl===updateApprovalStatus(BaseDataJob)  (2 usages found)
+===msgLvl===696addErrorMsg(" Please check some records  first. ");
+===msgLvl===702addInfoMsg(" Update status successfully. ");
+===fileLvl===SelectUserCode.java  (2 usages found)
+===methodLvl===doAddAction()  (1 usage found)
+===msgLvl===115addErrorMsg(" Please select some records from search result list first. ");
+===methodLvl===doRemoveAction()  (1 usage found)
+===msgLvl===156addErrorMsg(" Please select some records from selected list first. ");
+===fileLvl===SummaryAfterUpload.java  (3 usages found)
+===methodLvl===doCancelAction()  (1 usage found)
+===msgLvl===45addWarnMsg(" No anything to Delete .");
+===methodLvl===setEnableStatus(boolean)  (2 usages found)
+===msgLvl===186addInfoMsg(" Auto - Match enabled.");
+===msgLvl===192addInfoMsg(" Auto - Match disabled.");
+===fileLvl===SummaryAfterUploadPMSU.java  (3 usages found)
+===methodLvl===doCancelAction()  (1 usage found)
+===msgLvl===25addWarnMsg(" No anything to Delete .");
+===methodLvl===setEnableStatus(boolean)  (2 usages found)
+===msgLvl===168addInfoMsg(" Auto - Match enabled.");
+===msgLvl===172addInfoMsg(" Auto - Match disabled.");
+===fileLvl===TotalPayForSection.java  (6 usages found)
+===methodLvl===doJob(EuApproveBatchJob)  (2 usages found)
+===msgLvl===279addErrorMsg(" Please check some record first.");
+===msgLvl===288addInfoMsg(" Update status successfully .");
+===methodLvl===doRetrieveAction()  (1 usage found)
+===msgLvl===367addInfoMsg(" No record was found for display in the below list.");
+===methodLvl===run(String, ArrayList, Integer[], ActionHistory)  (3 usages found)
+===msgLvl===56msgs.addWarnMsg(
+===msgLvl===68msgs.addWarnMsg(
+===msgLvl===144msgs.addInfoMsg(" " + cnt + " transactions 's status  updated .");
+===fileLvl===UploadPMSUData.java  (6 usages found)
+===methodLvl===upload()  (5 usages found)
+===msgLvl===143addErrorMsg(" Please upload an excel file .");
+===msgLvl===149addErrorMsg(" Please check the file type .");
+===msgLvl===168addErrorMsg(" Already uploaded for this month .");
+===msgLvl===301addErrorMsg(" File is already uploaded successfully. ");
+===msgLvl===306addErrorMsg(" File Already exists . ");
+===methodLvl===validateFields()  (1 usage found)
+===msgLvl===321addErrorMsg(" Please upload a non-empty file .");
+===fileLvl===UploadTransData.java  (10 usages found)
+===methodLvl===doUploadAction()  (1 usage found)
+===msgLvl===69addErrorMsg(" A transaction file for this month already uploaded .");
+===methodLvl===upload()  (5 usages found)
+===msgLvl===205addErrorMsg(" Please select  Due Date .");
+===msgLvl===231addErrorMsg(" Already uploaded for this month .");
+===msgLvl===243addErrorMsg(" Transaction Data file already exist. ");
+===msgLvl===289addErrorMsg(" Please select the correct bank code for this batch transactions . ");
+===msgLvl===335addErrorMsg(" File Already exists . ");
+===methodLvl===validateFields()  (4 usages found)
+===msgLvl===493addErrorMsg(" Please upload a non-empty file .");
+===msgLvl===498addErrorMsg(" Please enter 'Due Date' .");
+===msgLvl===511addErrorMsg(
+===msgLvl===517addErrorMsg(" 'Due Date' should be later than TODAY.");
+===fileLvl===ViewUsercode.java  (18 usages found)
+===methodLvl===doComfirmAction()  (4 usages found)
+===msgLvl===131addErrorMsg(" Total of user code amounts should be equal to 'Billing Amount'.");
+===msgLvl===142addErrorMsg(" No payment no. , so can't change user code.");
+===msgLvl===156addErrorMsg(" Following  UserCode not found in GFMIS system ,if you still like to proceed , please press confirm again .");
+===msgLvl===166addErrorMsg("The usercode format is invalid!");
+===methodLvl===doDeleteAction()  (1 usage found)
+===msgLvl===289addErrorMsg("IndexOutOfBoundsException :" + e.getMessage());
+===methodLvl===notifyCardUser()  (6 usages found)
+===msgLvl===538addInfoMsg(" Email Notification sent to :" + creator.getUsername());
+===msgLvl===541addErrorMsg(e.getMessage());
+===msgLvl===544addErrorMsg(" P-Card User has't a valid email address .");
+===msgLvl===547addErrorMsg(" Error accessing Database.");
+===msgLvl===558addErrorMsg("Error - sending email.[ SMTP Host not found :" + root.getMessage() + "].");
+===msgLvl===569addErrorMsg(" Error reading Email Notification config.");
+===methodLvl===validateUsercode(String[])  (2 usages found)
+===msgLvl===267msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]+" contain special character!");
+===msgLvl===271msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===methodLvl===validateUsercodeExist(String[])  (1 usage found)
+===msgLvl===224msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===methodLvl===validateUsercodeFormat(String[])  (2 usages found)
+===msgLvl===243msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]+" contain special character!");
+===msgLvl===248msgs.addErrorMsg(" [ row index : " + (i + 1) + " ] :" + ucs[i]);
+===methodLvl===validateUsercodes()  (2 usages found)
+===msgLvl===474msgs.addErrorMsg(" [ row index : " + (rowIndex + 1) + " ] :" + ucEntry.getUsercode());
+===msgLvl===476msgs.addErrorMsg(" [ row index : " + (rowIndex + 1) + " ] :" + ucEntry.getUsercode());
+===fileLvl===APErrorCodes.java  (11 usages found)
+===methodLvl===doDeleteAction()  (1 usage found)
+===msgLvl===115addInfoMsg(" AP Error Code deleted :" + errorCode.getErrorCode());
+===methodLvl===doEditAction()  (1 usage found)
+===msgLvl===90addInfoMsg(" AP Error Code updated . ");
+===methodLvl===doInsertAction()  (3 usages found)
+===msgLvl===66addInfoMsg(" AP Error Code inserted . ");
+===msgLvl===69addErrorMsg("AP Error Code existed.");
+===msgLvl===72addErrorMsg("AP Error Code existed.");
+===methodLvl===validate()  (3 usages found)
+===msgLvl===151addErrorMsg(" Please fill following fields : " + b);
+===msgLvl===154addErrorMsg("The errorCode must not be larger than 80 character!");
+===msgLvl===156addErrorMsg("The errorMsg must not be larger than 240 character!");
+===methodLvl===validate(APErrorCode)  (3 usages found)
+===msgLvl===172addErrorMsg(" Please fill following fields : " + b);
+===msgLvl===175addErrorMsg("The errorCode must not be larger than 80 character!");
+===msgLvl===179addErrorMsg("The errorMsg must not be larger than 240 character!");
+===fileLvl===CenterCode.java  (5 usages found)
+===methodLvl===doAddAction()  (2 usages found)
+===msgLvl===34addErrorMsg("Centre Code should have " + getMaxLength() + " digits and/or alphabets.");
+===msgLvl===51addInfoMsg(" A new code added :" + getCode().getCentreCode());
+===methodLvl===doDeleteAction()  (1 usage found)
+===msgLvl===71addInfoMsg(" Cost Centre Code removed :"+ current.getCentreCode());
+===methodLvl===doEditAction()  (2 usages found)
+===msgLvl===88addErrorMsg("Centre Code should have " + getMaxLength() + " digits and/or alphabets.");
+===msgLvl===116addInfoMsg(" Cost Centre code updated . ");
+===fileLvl===Charges.java  (1 usage found)
+===methodLvl===doIgnoreAction()  (1 usage found)
+===msgLvl===73addInfoMsg(" Ignored Charges' status changed successfully.");
+===fileLvl===CleanUpTrans.java  (4 usages found)
+===methodLvl===doButton1Action()  (2 usages found)
+===msgLvl===24addInfoMsg("clear successfully");
+===msgLvl===27addErrorMsg(e.getMessage());
+===methodLvl===doButton3Action()  (2 usages found)
+===msgLvl===36addInfoMsg("clear successfully");
+===msgLvl===39addErrorMsg(e.getMessage());
+===fileLvl===CostCentreCode.java  (7 usages found)
+===methodLvl===doCreateAction()  (4 usages found)
+===msgLvl===125addErrorMsg(" No Section selected. ");
+===msgLvl===130addErrorMsg(" please enter 'Cost Centre Code' .");
+===msgLvl===141addInfoMsg(" Cost Centre Code created : " + findSectionName(getSectionCode()) + "/" + getCostCentreCode());
+===msgLvl===146addErrorMsg(" Create failed :" + e.getMessage());
+===methodLvl===doDeleteAction()  (1 usage found)
+===msgLvl===162addInfoMsg(
+===methodLvl===doRetrieveAction()  (1 usage found)
+===msgLvl===197addInfoMsg(" No record was found for display in the below list. ");
+===methodLvl===getSections()  (1 usage found)
+===msgLvl===252addErrorMsg(" Error - searching section list :" + e.getMessage());
+===fileLvl===Fees.java  (6 usages found)
+===methodLvl===doDeleteAction()  (1 usage found)
+===msgLvl===50addInfoMsg(" fee_name deleted :" + rowData.getFeeName());
+===methodLvl===doEditAction()  (2 usages found)
+===msgLvl===78addErrorMsg(" Code Width must greater than or equal to User Code's length. ");
+===msgLvl===90addInfoMsg(" Fee Name updated . ");
+===methodLvl===doInsertAction()  (2 usages found)
+===msgLvl===139addErrorMsg(" Code Width must greater than or equal to User Code's length. ");
+===msgLvl===148addInfoMsg(" Fee Name inserted . ");
+===methodLvl===validate()  (1 usage found)
+===msgLvl===263addErrorMsg(" Please fill following fields : " + b);
+===fileLvl===FeeUsercode.java  (1 usage found)
+===methodLvl===doSaveAction()  (1 usage found)
+===msgLvl===28addInfoMsg(" Update Default user code successfully .");
+===fileLvl===IgnoredItem.java  (3 usages found)
+===methodLvl===doCreateAction()  (1 usage found)
+===msgLvl===55addInfoMsg(" Ignored Item added :" + getName());
+===methodLvl===doDeleteAction()  (1 usage found)
+===msgLvl===77addInfoMsg(" Ignored Item deleted :" + sname);
+===methodLvl===doEditAction()  (1 usage found)
+===msgLvl===101addInfoMsg(
+===fileLvl===InterfaceControl.java  (7 usages found)
+===methodLvl===doEditAction()  (1 usage found)
+===msgLvl===51addInfoMsg(" Saved successfully.");
+===methodLvl===validateFields()  (6 usages found)
+===msgLvl===143msgs.addErrorMsg(" Please enter 'Department Code' .");
+===msgLvl===146msgs.addErrorMsg(" Please enter 'System ID' .");
+===msgLvl===149addErrorMsg(" Please enter 'Source' . ");
+===msgLvl===152addErrorMsg(" Please enter 'Financial Year' .");
+===msgLvl===155addErrorMsg(" Please enter 'DVN Range minimal ' . ");
+===msgLvl===158addErrorMsg(" Please enter 'DVN Range maximal' . ");
+===fileLvl===OutOffice.java  (6 usages found)
+===methodLvl===doActivateAction()  (5 usages found)
+===msgLvl===46addErrorMsg(" You are currently acting as a designated officer for someone & he/she is out of office , so you can't activate out of office function .");
+===msgLvl===57addErrorMsg(" Please assign an Officer  . ");
+===msgLvl===63addErrorMsg(" Start Date must be NOT LATER THAN End Date .");
+===msgLvl===70addErrorMsg(" Start Date Must be NOT EARLIER THAN Today . ");
+===msgLvl===89addInfoMsg(" 'Out of Office' function Activated .");
+===methodLvl===doDeactivateAction()  (1 usage found)
+===msgLvl===120addInfoMsg(" 'Out of Office' funcion Deactivated .");
+===fileLvl===PCardProfileEnquiry.java  (1 usage found)
+===methodLvl===doSearchAction()  (1 usage found)
+===msgLvl===62addInfoMsg("No record was found for display in the below list.");
+===fileLvl===ReasonList.java  (5 usages found)
+===methodLvl===doCreateAction()  (2 usages found)
+===msgLvl===37addErrorMsg(" Please enter Reason .");
+===msgLvl===47addInfoMsg(" Reason created [ id =" + getReason().getReasonId() + "].");
+===methodLvl===doDeleteAction()  (1 usage found)
+===msgLvl===67addInfoMsg(" Reason  deleted [ id =" + current.getReasonId() + " , reason =" + current.getReason() + "] .");
+===methodLvl===doEditAction()  (1 usage found)
+===msgLvl===83addInfoMsg(" updated  successfully. ");
+===methodLvl===doRefreshAction()  (1 usage found)
+===msgLvl===114addInfoMsg(" Latest reason list retrieved. ");
+===fileLvl===ReminderSchedule.java  (1 usage found)
+===methodLvl===doSaveAction()  (1 usage found)
+===msgLvl===121addInfoMsg(" Update succesfully. ");
+===fileLvl===Team.java  (2 usages found)
+===methodLvl===doDeleteAction()  (1 usage found)
+===msgLvl===169addInfoMsg(" A Team removed : " + desc);
+===methodLvl===doSaveAction()  (1 usage found)
+===msgLvl===214addInfoMsg(" Team Infomation updated. ");
+===fileLvl===TeamMapNew.java  (9 usages found)
+===methodLvl===doAddAction()  (3 usages found)
+===msgLvl===89addErrorMsg(" Please check some sections from left list . ");
+===msgLvl===106addInfoMsg((rows.length - cnt) + " sections added to list  ( duplicate :" + cnt + " ).");
+===msgLvl===108addInfoMsg(rows.length + " sections added to list . ");
+===methodLvl===doRemoveAction()  (2 usages found)
+===msgLvl===143addErrorMsg(" Please check some sections from right list . ");
+===msgLvl===157addInfoMsg(rows.length + " sections removed from list . ");
+===methodLvl===doSaveAction()  (4 usages found)
+===msgLvl===188addErrorMsg(" Please check some sections .");
+===msgLvl===208addInfoMsg("Team :" + team.getDescription() + " created [ id :" + getTeamId() + " ] .");
+===msgLvl===213addErrorMsg(" Invalid team id .");
+===msgLvl===236addErrorMsg(" Invalid data or team with same description (name) already exists.");
+===fileLvl===TeamSectionMap.java  (9 usages found)
+===methodLvl===doAddAction()  (3 usages found)
+===msgLvl===75addErrorMsg(" Please check some sections from left list . ");
+===msgLvl===92addInfoMsg((rows.length - cnt) + " sections added to list  ( duplicate :" + cnt + " ).");
+===msgLvl===94addInfoMsg(rows.length + " sections added to list . ");
+===methodLvl===doRemoveAction()  (2 usages found)
+===msgLvl===129addErrorMsg(" Please check some sections from right list . ");
+===msgLvl===143addInfoMsg(rows.length + " sections removed from list . ");
+===methodLvl===doSaveAction()  (4 usages found)
+===msgLvl===160addErrorMsg(" No Team ID found. ");
+===msgLvl===167addErrorMsg(" Please check some sections .");
+===msgLvl===199addInfoMsg(" Saved successfully. ");
+===msgLvl===203addErrorMsg(" Invalid team id .");
+===fileLvl===Ucformats.java  (5 usages found)
+===methodLvl===doDeleteAction()  (1 usage found)
+===msgLvl===49addInfoMsg(" User Code Format deleted :" + rowData.getUsercode() + "/width :" + rowData.getCodewidth());
+===methodLvl===doEditAction()  (2 usages found)
+===msgLvl===74addErrorMsg(" Code Width must greater than or equal to User Code's length. ");
+===msgLvl===92addInfoMsg(" User Code Format updated . ");
+===methodLvl===doInsertAction()  (1 usage found)
+===msgLvl===130addInfoMsg(" User Code Format inserted . ");
+===methodLvl===validate()  (1 usage found)
+===msgLvl===202addErrorMsg(" Please fill following fields : " + b);
+===fileLvl===UserProfileDetail.java  (6 usages found)
+===methodLvl===doDeleteAction()  (6 usages found)
+===msgLvl===36addWarnMsg(" Current User Profile is referenced as designated user by following users , if you still like to process , please press Delete again ? ");
+===msgLvl===39addWarnMsg(" User ID :" + refBys[i].getKey() + " , Name :" + refBys[i].getValue());
+===msgLvl===52addInfoMsg(" User Profile Deleted successfully. ");
+===msgLvl===61addErrorMsg("Error :" + e.getErrorCode() + ":" + e.getMessage());
+===msgLvl===65addErrorMsg("Error :" + next.getErrorCode() + ":" + next.getMessage());
+===msgLvl===69addErrorMsg(" Error - accessing database. ");
+===fileLvl===UserProfileEnquiry.java  (1 usage found)
+===methodLvl===doRetrieveAction()  (1 usage found)
+===msgLvl===40addInfoMsg(" No record was found for display in the below list.");
+===fileLvl===UserProfileNew.java  (5 usages found)
+===methodLvl===doSaveAction()  (3 usages found)
+===msgLvl===161addErrorMsg("The user is already existed.");
+===msgLvl===171addInfoMsg("Save user successfully");
+===msgLvl===177addErrorMsg(e.getMessage());
+===methodLvl===validate()  (2 usages found)
+===msgLvl===292addErrorMsg(" EU Clerk can only belong to ONE team.");
+===msgLvl===299addErrorMsg(" Please assign  team to user ");
+===fileLvl===UserProfileUpdate.java  (11 usages found)
+===methodLvl===doDeleteAction()  (6 usages found)
+===msgLvl===75addWarnMsg(" Current User Profile is referenced as designated user by following users , if you still like to process , please press Delete again ? ");
+===msgLvl===78addWarnMsg(" User ID :" + refBys[i].getKey() + " , Name :" + refBys[i].getValue());
+===msgLvl===90addInfoMsg(" User Profile Deleted successfully. ");
+===msgLvl===100addErrorMsg("Error :" + e.getErrorCode() + ":" + e.getMessage());
+===msgLvl===104addErrorMsg("Error :" + next.getErrorCode() + ":" + next.getMessage());
+===msgLvl===108addErrorMsg(" Error - accessing database. ");
+===methodLvl===doUpdateAction()  (1 usage found)
+===msgLvl===153addInfoMsg("update user successfully");
+===methodLvl===validate()  (4 usages found)
+===msgLvl===268msgs.addErrorMsg(" Please enter 'User Name' .");
+===msgLvl===271msgs.addErrorMsg(" Please enter 'User Post' .");
+===msgLvl===282msgs.addErrorMsg(" 'Password' should be equal to 'Confirm Password' .");
+===msgLvl===285msgs.addErrorMsg(" EU Clerk can only belong to ONE team.");
+===fileLvl===EuApproveHolderBase.java  (2 usages found)
+===methodLvl===doJob(EuBatchJob, ArrayList, Integer[])  (2 usages found)
+===msgLvl===68addErrorMsg(" Please check some record first.");
+===msgLvl===77addInfoMsg(" Update status successfully .");
+===fileLvl===EuBatchJob.java  (1 usage found)
+===methodLvl===run(String, ArrayList, Integer[], ActionHistory)  (1 usage found)
+===msgLvl===53msgs.addWarnMsg(" [ Card No : " + rowData.getCardNo() + " ] " + action.getErrorStatusMsg());
+===fileLvl===FacesUtil.java  (3 usages found)
+===methodLvl===addErrorMsg(String)  (1 usage found)
+===msgLvl===16public static void addErrorMsg(String detail) {
+===methodLvl===addInfoMsg(String)  (1 usage found)
+===msgLvl===25public static void addInfoMsg(String detail) {
+===methodLvl===addWarnMsg(String)  (1 usage found)
+===msgLvl===56public static void addWarnMsg(String detail) {
+===fileLvl===PcardTopJob.java  (1 usage found)
+===methodLvl===run(String, String, ArrayList, Integer[], ActionHistory)  (1 usage found)
+===msgLvl===41msgs.addWarnMsg(
+===fileLvl===FacesMessages.java  (3 usages found)
+===methodLvl===addErrorMsg(String)  (1 usage found)
+===msgLvl===39public void addErrorMsg(String detail) {
+===methodLvl===addInfoMsg(String)  (1 usage found)
+===msgLvl===47public void addInfoMsg(String detail) {
+===methodLvl===addWarnMsg(String)  (1 usage found)
+===msgLvl===51public void addWarnMsg(String detail) {
+===fileLvl===PageCodeBase.java  (4 usages found)
+===methodLvl===addExceptionMsg(Throwable)  (4 usages found)
+===msgLvl===163
+===msgLvl===165
+===msgLvl===167
+===msgLvl===169
+===fileLvl===AddUsercode.java  (1 usage found)
+===methodLvl===doComfirmAction()  (1 usage found)
+===msgLvl===140
+===fileLvl===ApproveCardTrans.java  (3 usages found)
+===methodLvl===doApproveAction()  (1 usage found)
+===msgLvl===309
+===methodLvl===notifyEuClerks()  (2 usages found)
+===msgLvl===763
+===msgLvl===767
+===fileLvl===ChangePCSUsercode.java  (2 usages found)
+===methodLvl===doComfirmAction()  (2 usages found)
+===msgLvl===266
+===msgLvl===293				addErrorMsg(" No payment no. , so can't change user code.");
+===fileLvl===ChangeUsercode.java  (1 usage found)
+===methodLvl===doComfirmAction()  (1 usage found)
+===msgLvl===155
+===fileLvl===CheckTransFromAllHolders.java  (1 usage found)
+===methodLvl===doRetrieveAction()  (1 usage found)
+===msgLvl===241
+===fileLvl===ConfirmBankStatements.java  (1 usage found)
+===methodLvl===467
+===fileLvl===DisputeFormCitiBank.java  (2 usages found)
+===methodLvl===doConfirmAction()  (2 usages found)
+===msgLvl===120
+===msgLvl===158
+===fileLvl===EditTfcode.java  (1 usage found)
+===methodLvl===doSaveAction()  (1 usage found)
+===msgLvl===132
+===fileLvl===GenPayFile.java  (3 usages found)
+===methodLvl===doAcceptAction()  (1 usage found)
+===msgLvl===155
+===methodLvl===genIt(boolean, boolean)  (2 usages found)
+===msgLvl===246
+===msgLvl===374
+===fileLvl===InputUserCodePmsu.java  (1 usage found)
+===methodLvl===doConfirmAction()  (1 usage found)
+===msgLvl===140
+===fileLvl===MatchVerifyTrans.java  (13 usages found)
+===methodLvl===aucPMSUAfter(Integer)  (1 usage found)
+===msgLvl===407
+===methodLvl===doAcceptAction()  (1 usage found)
+===msgLvl===598					addErrorMsg(" Can't Accept this transaction.  (cause : This transaction 's description do not exist in 'Fee Name List' ) ;");
+===methodLvl===doButtonAcceptPMSUAction()  (2 usages found)
+===msgLvl===4077					addErrorMsg(" Can't Accept this transaction.  (cause : This transaction 's description  not exist in 'Fee Name List' ) ;");
+===msgLvl===4116			addInfoMsg(" Accepted transaction moved up to 'Matched/Accepted/Disputed' List  ;");
+===methodLvl===doConfirmAction()  (1 usage found)
+===msgLvl===1147				addErrorMsg(" Please verify all transactions first ; ");
+===methodLvl===doSubmitAction_Backup()  (1 usage found)
+===msgLvl===1571
+===methodLvl===doVerifyAction()  (5 usages found)
+===msgLvl===1862
+===msgLvl===1894
+===msgLvl===1905
+===msgLvl===1910
+===msgLvl===1917						addErrorMsg("Invalid usercode : "+dpas.getUserCode()+" in row "+ (rows[i].intValue()+1));
+===methodLvl===getPcardHolderName()  (2 usages found)
+===msgLvl===131
+===msgLvl===134
+===fileLvl===PcardDetailForSection.java  (3 usages found)
+===methodLvl===doRejectAction()  (1 usage found)
+===msgLvl===249				addErrorMsg(" Server is busy.");
+===methodLvl===79
+===methodLvl===88
+===fileLvl===TotalPayForSection.java  (6 usages found)
+===methodLvl===run(String, ArrayList, Integer[], ActionHistory)  (4 usages found)
+===msgLvl===106
+===msgLvl===112
+===msgLvl===117
+===msgLvl===123
+===methodLvl===314
+===methodLvl===323
+===fileLvl===UploadPMSUData.java  (2 usages found)
+===methodLvl===doUploadAction()  (1 usage found)
+===msgLvl===59			addErrorMsg(" A transaction file for this month already uploaded .");
+===methodLvl===upload()  (1 usage found)
+===msgLvl===178
+===fileLvl===UploadTransData.java  (8 usages found)
+===methodLvl===upload()  (1 usage found)
+===msgLvl===224
+===methodLvl===validateFields()  (1 usage found)
+===msgLvl===527
+===methodLvl===349
+===methodLvl===368
+===methodLvl===375
+===methodLvl===386
+===methodLvl===432
+===methodLvl===478
+===fileLvl===ViewUsercode.java  (1 usage found)
+===methodLvl===doComfirmAction()  (1 usage found)
+===msgLvl===149
+===fileLvl===Team.java  (2 usages found)
+===methodLvl===doDeleteAction()  (2 usages found)
+===msgLvl===142
+===msgLvl===149
+===fileLvl===TeamMapNew.java  (1 usage found)
+===methodLvl===onPageLoadBegin(FacesContext)  (1 usage found)
+===msgLvl===376
+===fileLvl===TeamSectionMap.java  (3 usages found)
+===methodLvl===doSaveAction()  (2 usages found)
+===msgLvl===186
+===msgLvl===192
+===methodLvl===onPageLoadBegin(FacesContext)  (1 usage found)
+===msgLvl===333
+===fileLvl===UserProfileUpdate.java  (1 usage found)
+===methodLvl===validate()  (1 usage found)
+===msgLvl===274
+===fileLvl===EuBatchJob.java  (3 usages found)
+===methodLvl===run(String, ArrayList, Integer[], ActionHistory)  (3 usages found)
+===msgLvl===48
+===msgLvl===60					
+===msgLvl===66					msgs.addWarnMsg("[ Card No :" + rowData.getCardNo() + " ] " + action.getErrorDependenceMsg());

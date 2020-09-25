@@ -1,0 +1,79 @@
+fileName,screenName,funcName
+email.htm,PCS-EML-001,Broadcast Email
+emailRemind1.htm,PCS-EML-002,1st Email Reminder to P-Card Holders and Supervisors with Outstanding P-Card Bank Transactions
+emailRemind2.htm,PCS-EML-003,2nd Email Reminder to P-Card Holders and Supervisors with Outstanding P-Card Bank Transactions
+cardProfileEnquiry.htm,PCS-ENQ-001,P-Card Profile Enquiry
+cardProfileDetail.htm,PCS-ENQ-002,P-Card Profile Detail
+sectionEnquiry.htm,PCS-ENQ-003,Section Enquiry
+transHistoryEnquiry.htm,PCS-ENQ-004,Bank Transactions Record Enquiry
+teamEnquiry.htm,PCS-ENQ-005,Team Enquiry
+welcome.htm,PCS-GEN-001, 
+cleanUpTrans.htm,PCS-HSK-001,Clean Up Past Transactions Before A Cut Off Day
+cleanUpNonTrans.htm,PCS-HSK-002,Clean Up Past Non-Transactions Before A Cut Off Day
+RPT001.htm,PCS-RPT-001,RPT001 - Statistics on Uploaded Bank Transactions
+RPT002.htm,PCS-RPT-002,RPT002 - List of Other Bank Transactions
+RPT003.htm,PCS-RPT-003,RPT003 - P-Card Bank Statement Report
+RPT004.htm,PCS-RPT-004,RPT004 - P-Card Transactions Charged to User Codes by Branch/Section
+RPT005.htm,PCS-RPT-005,RPT005 - List of P-Card Bank Transactions Matched with DPAS Fax Orders
+RPT006.htm,PCS-RPT-006,RPT006 - List of Outstanding (Not Yet Certified) P-Card Bank Transactions
+RPT007.htm,PCS-RPT-007,RPT007 - List of Dispute / Adjustment P-Card Transactions
+RPT008.htm,PCS-RPT-008,RPT008 - List of P-Card Bank Transactions Certified by P-Card Supervisors
+RPT009.htm,PCS-RPT-009,RPT009 - List of P-Card Transactions Charged to Incorrect GFMIS User Codes
+RPT010.htm,PCS-RPT-010,RPT010 - List of P-Card Transactions with Amended User Code
+RPT011.htm,PCS-RPT-011,RPT011 - List of P-Card Transactions
+RPT012.htm,PCS-RPT-012,RPT012 - Reconciliation on Total Certified P-Card Bank Transactions Amount against Bank Statement
+RPT013.htm,PCS-RPT-013,RPT013 - Details on Generated File for Creation of GFMIS Payment Vouchers
+RPT014.htm,PCS-RPT-014,RPT014 - List of P-Card Transactions Arranged for Payment
+RPT015.htm,PCS-RPT-015,RPT015 - Log on Special Handling by E&SU Supervisor
+RPT016.htm,PCS-RPT-016,RPT016 - Log on User Code Amended by E&SU Clerk
+RPT017.htm,PCS-RPT-017,RPT017 - List of P-Card Holder  
+RPT018.htm,PCS-RPT-018,RPT018 - List of E&SU User 
+RPT019.htm,PCS-RPT-019,RPT019 - Monthly Payment Amount by P-card
+reports.htm,PCS-RPT-020,Generate Reports
+userProfileEnquiry.htm,PCS-SYS-001,User Profile Maintenance
+userProfileNew.htm,PCS-SYS-002,Create User Profile
+userProfileUpdate.htm,PCS-SYS-003,User Profile Amendment Form
+userProfileEnquiryDpa.htm,PCS-SYS-004,User Profile - Create from DPA
+userProfileNewDpa.htm,PCS-SYS-005,Create User Profile from DPA
+team.htm,PCS-SYS-006,E&SU Team Maintenance
+teamMapNew.htm,PCS-SYS-007,Team - Section Map
+fees.htm,PCS-SYS-008,Ignored Special Bank Transactions Maintenance
+feesNew.htm,PCS-SYS-009,Ignored Special Bank Transaction - Create
+fees_edit.htm,PCS-SYS-010,Ignored Special Bank Transaction - Edit
+ucformatsNew.htm,PCS-SYS-011,User Code Format - Create
+ucformatsEdit.htm,PCS-SYS-012,User Code Format - Edit
+reasonList.htm,PCS-SYS-013,Dispute Reason Maintenance
+reasonListNew.htm,PCS-SYS-014,Dispute Reason - Create
+reasonEdit.htm,PCS-SYS-015,Dispute Reason - Edit
+feeUsercode.htm,PCS-SYS-016,Default User Code for Fee
+interfaceControl.htm,PCS-SYS-017,Interface Control Configuration
+ucformats.htm,PCS-SYS-018,User Code Format
+ChangePassword.htm,PCS-SYS-019,Change Password
+apErrorCode.htm,PCS-SYS-020,AP Error Code
+apErrorCodeNew.htm,PCS-SYS-021,AP Error Code - Create
+apErrorCodeEdit.htm,PCS-SYS-022,AP Error Code - Edit
+centerCode.htm,PCS-SYS-023,Cost Center Code Maintenance
+centerCodeNew.htm,PCS-SYS-024,Cost Center Code - Create
+centerCodeEdit.htm,PCS-SYS-025,Cost Center Code - Edit
+broadMsgList.htm,PCS-SYS-026,Broadcast Message Maintenance
+broadMsgNew.htm,PCS-SYS-027,Broadcast Message - Create
+broadMsgEdit.htm,PCS-SYS-028,Broadcast Message - Edit
+systemParam.htm,PCS-SYS-029,System Parameter Maintenance
+uploadTransData.htm,PCS-TRN-001,Upload Bank Transaction Data File
+summaryAfterUpload.htm,PCS-TRN-002,Match Bank Data with DPAS Fax Orders
+dummyPcards.htm,PCS-TRN-003,Unregistered P-Cards
+uploadPCMSData.htm,PCS-TRN-004,Upload GLD PCMS Data File
+matchVerifyTrans.htm,PCS-TRN-005,Verify Bank Transactions by P-Card Holder
+selectUserCode.htm,PCS-TRN-006,Search / Select User Code
+UserCodeFromDPAS.htm,PCS-TRN-007,Allocate / Reallocate User Code From DPAS
+changeUserCode.htm,PCS-TRN-008,Input / Change User Code for Payment
+disputeForm.htm,PCS-TRN-009,Dispute Bank Transaction
+approveCardTrans.htm,PCS-TRN-010,Certify Bank Transactions for Payment by P-Card Supervisor
+checkTransFromAllHolders.htm,PCS-TRN-011,Process Certified Bank Transactions by E&SU Clerk
+pcardDetailForCard.htm,PCS-TRN-012,Details of Transaction under Selected P-Card
+pcardDetailForCard_2.htm,PCS-TRN-012-2,Details of Transaction under Selected P-Card
+totalPayForSection.htm,PCS-TRN-013,Process Certified Bank Transactions by E&SU Supervisor
+pcardDetailForSection.htm,PCS-TRN-014,Details of P-Card Holders under Selected Section
+genPayFile.htm,PCS-TRN-015,Generate Payment File for Upload to GFMIS
+downloadPaymentInterface.htm,PCS-TRN-016,Download Payment File
+charges.htm,PCS-TRN-017,List of Ignored Bank Transactions

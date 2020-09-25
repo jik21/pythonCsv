@@ -1,0 +1,431 @@
+file,method,lvl,Content,MatchWith
+APErrorCodes.java,doDeleteAction(),Info,""" AP Error Code deleted :"" + errorCode.getErrorCode()",
+APErrorCodes.java,doEditAction(),Info,""" AP Error Code updated . """,
+APErrorCodes.java,doInsertAction(),Info,""" AP Error Code inserted . """,
+APErrorCodes.java,doInsertAction(),Error,"""AP Error Code existed.""",
+APErrorCodes.java,doInsertAction(),Error,"""AP Error Code existed.""",
+APErrorCodes.java,validate(),Error,""" Please fill following fields : "" + b",
+APErrorCodes.java,validate(),Error,"""The errorCode must not be larger than 80 character!""",
+APErrorCodes.java,validate(),Error,"""The errorMsg must not be larger than 240 character!""",
+APErrorCodes.java,validate(APErrorCode),Error,""" Please fill following fields : "" + b",
+APErrorCodes.java,validate(APErrorCode),Error,"""The errorCode must not be larger than 80 character!""",
+APErrorCodes.java,validate(APErrorCode),Error,"""The errorMsg must not be larger than 240 character!""",
+AddUsercode.java,doComfirmAction(),Error,""" Total of user code amounts should be equal to 'Billing Amount'.""",
+AddUsercode.java,doComfirmAction(),Error,""" No payment no. , so can't change user code.""",
+AddUsercode.java,doComfirmAction(),Error,""" Following  UserCode not found in GFMIS system ,if you still like to proceed , please press confirm again .""",
+AddUsercode.java,doComfirmAction(),Error,"""The usercode format is invalid!""",
+AddUsercode.java,doDeleteAction(),Error,"""IndexOutOfBoundsException :"" + e.getMessage()",
+AddUsercode.java,notifyCardUser(),Info,""" Email Notification sent to :"" + creator.getUsername()",
+AddUsercode.java,notifyCardUser(),Error,e.getMessage(),
+AddUsercode.java,notifyCardUser(),Error,""" P-Card User has't a valid email address .""",
+AddUsercode.java,notifyCardUser(),Error,""" Error accessing Database.""",
+AddUsercode.java,notifyCardUser(),Error,"""Error - sending email.[ SMTP Host not found :"" + root.getMessage() + ""].""",
+AddUsercode.java,notifyCardUser(),Error,""" Error reading Email Notification config.""",
+AddUsercode.java,validateUsercode(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]+"" contain special character!""",
+AddUsercode.java,validateUsercode(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",
+AddUsercode.java,validateUsercodeExist(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",
+AddUsercode.java,validateUsercodeFormat(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]+"" contain special character!""",
+AddUsercode.java,validateUsercodeFormat(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",
+AddUsercode.java,validateUsercodes(),Error,""" [ row index : "" + (rowIndex + 1) + "" ] :"" + ucEntry.getUsercode()",
+AddUsercode.java,validateUsercodes(),Error,""" [ row index : "" + (rowIndex + 1) + "" ] :"" + ucEntry.getUsercode()",
+ApproveCardTrans.java,doRetrieveAction(),Info,""" No P-Card statement of this bank needed your approval.  Please switch to the other bank to check if there are any outstanding approval tasks.""",PCS-TRN-010
+ApproveCardTrans.java,notifyEuClerks(),Error,""" Can't send email notification [ cause : No section infomation found ].""",PCS-TRN-010
+ApproveCardTrans.java,notifyEuClerks(),Error,"""Error - sending email.[ SMTP Host not found :"" + root.getMessage() + ""].""",PCS-TRN-010
+ApproveCardTrans.java,notifyEuClerks(),Info,"""P-Card Supervisor's approval task completed.  Email was sent to Finance Section.""",PCS-TRN-010
+ApproveCardTrans.java,notifyEuClerks(),Warn,"""P-Card Supervisor's approval task completed.  However, no email was sent to Finance Section, please contact AOI(E) at 2601-8037.""",PCS-TRN-010
+ApproveCardTrans.java,notifyEuClerks(),Error,""" Error - accessing Database .""",PCS-TRN-010
+ApproveCardTrans.java,notifyEuClerks(),Error,""" Error - reading Email Notification Config.""",PCS-TRN-010
+ApproveCardTrans.java,notifyHolder(String),Error,""" Can't send email notification [ cause : No section infomation found ].""",PCS-TRN-010
+ApproveCardTrans.java,notifyHolder(String),Info,""" Email notification sent  to :"" + holder.getUsername()",PCS-TRN-010
+ApproveCardTrans.java,notifyHolder(String),Error,e.getMessage(),PCS-TRN-010
+ApproveCardTrans.java,notifyHolder(String),Error,""" invalid email found :"" + holder.getEmail() + ""["" + holder.getUsername() + ""]""",PCS-TRN-010
+ApproveCardTrans.java,notifyHolder(String),Warn,""" P-Card Holder profile not found.""",PCS-TRN-010
+ApproveCardTrans.java,notifyHolder(String),Error,""" Error - accessing Database .""",PCS-TRN-010
+ApproveCardTrans.java,notifyHolder(String),Error,""" Error - reading Email Notification Config.""",PCS-TRN-010
+BillTransDetails.java,doConfirmAction(),Error,""" Total Amount doesn't equal to Billing Amount .""",
+BillTransDetails.java,doConfirmAction(),Error,""" Following  UserCode not found in PCS system & not match up to predefined formats , if you still like to proceed , please press confirm again .""",
+BillTransDetails.java,doDeleteAction(),Error,"""IndexOutOfBoundsException :"" + e.getMessage()",
+BillTransDetails.java,validateUsercodes(ArrayList),Error,""" [ row index : "" + (rowIndex + 1) + "" ] :"" + ucEntry.getUsercode()",
+BillTransDetails.java,validateUsercodes(ArrayList),Error,""" [ row index : "" + (rowIndex + 1) + "" ] :"" + ucEntry.getUsercode()",
+BillTransDetails.java,validateUsercodes(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",
+BillTransDetails.java,validateUsercodes(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",
+CardProfileEnquiry.java,doRetrieveAction(),Info,""" No record was found for display in the below list.""",PCS-ENQ-001
+CenterCode.java,doAddAction(),Error,"""Centre Code should have "" + getMaxLength() + "" digits and/or alphabets.""",PCS-SYS-023
+CenterCode.java,doAddAction(),Info,""" A new code added :"" + getCode().getCentreCode()",PCS-SYS-023
+CenterCode.java,doDeleteAction(),Info,""" Cost Centre Code removed :""+ current.getCentreCode()",PCS-SYS-023
+CenterCode.java,doEditAction(),Error,"""Centre Code should have "" + getMaxLength() + "" digits and/or alphabets.""",PCS-SYS-023
+CenterCode.java,doEditAction(),Info,""" Cost Centre code updated . """,PCS-SYS-023
+ChangePCSUsercode.java,doComfirmAction(),Error,""" Total of user code amounts should be equal to 'Billing Amount'.""",
+ChangePCSUsercode.java,doComfirmAction(),Error,""" Following  UserCode not found in GFMIS system ,if you still like to proceed , please press confirm again .""",
+ChangePCSUsercode.java,doComfirmAction(),Error,"""The usercode format is invalid!""",
+ChangePCSUsercode.java,doComfirmAction(),Error,"""Save user code successfully!""",
+ChangePCSUsercode.java,doComfirmAction(),Error,""" No payment no. , so can't change user code.""",
+ChangePCSUsercode.java,doDeleteAction(),Error,"""IndexOutOfBoundsException :"" + e.getMessage()",
+ChangePCSUsercode.java,notifyCardUser(),Info,""" Email Notification sent to :"" + creator.getUsername()",
+ChangePCSUsercode.java,notifyCardUser(),Error,e.getMessage(),
+ChangePCSUsercode.java,notifyCardUser(),Error,""" P-Card User has't a valid email address .""",
+ChangePCSUsercode.java,notifyCardUser(),Error,""" Error accessing Database.""",
+ChangePCSUsercode.java,notifyCardUser(),Error,"""Error - sending email.[ SMTP Host not found :"" + root.getMessage() + ""].""",
+ChangePCSUsercode.java,notifyCardUser(),Error,""" Error reading Email Notification config.""",
+ChangePCSUsercode.java,validateUsercode(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]+"" contain special character!""",
+ChangePCSUsercode.java,validateUsercode(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",
+ChangePCSUsercode.java,validateUsercodeExist(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",
+ChangePCSUsercode.java,validateUsercodeFormat(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]+"" contain special character!""",
+ChangePCSUsercode.java,validateUsercodeFormat(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",
+ChangePCSUsercode.java,validateUsercodes(),Error,""" [ row index : "" + (rowIndex + 1) + "" ] :"" + ucEntry.getUsercode()",
+ChangePCSUsercode.java,validateUsercodes(),Error,""" [ row index : "" + (rowIndex + 1) + "" ] :"" + ucEntry.getUsercode()",
+ChangeUsercode.java,doComfirmAction(),Error,""" Total of user code amounts should be equal to 'Billing Amount'.""",PCS-TRN-008
+ChangeUsercode.java,doComfirmAction(),Error,""" No payment no. , so can't change user code.""",PCS-TRN-008
+ChangeUsercode.java,doComfirmAction(),Error,""" Following  UserCode not found in GFMIS system ,if you still like to proceed , please press confirm again .""",PCS-TRN-008
+ChangeUsercode.java,doComfirmAction(),Error,"""The usercode format is invalid!""",PCS-TRN-008
+ChangeUsercode.java,doDeleteAction(),Error,"""IndexOutOfBoundsException :"" + e.getMessage()",PCS-TRN-008
+ChangeUsercode.java,notifyCardUser(),Info,""" Email Notification sent to :"" + creator.getUsername()",PCS-TRN-008
+ChangeUsercode.java,notifyCardUser(),Error,e.getMessage(),PCS-TRN-008
+ChangeUsercode.java,notifyCardUser(),Error,""" P-Card User has't a valid email address .""",PCS-TRN-008
+ChangeUsercode.java,notifyCardUser(),Error,""" Error accessing Database.""",PCS-TRN-008
+ChangeUsercode.java,notifyCardUser(),Error,"""Error - sending email.[ SMTP Host not found :"" + root.getMessage() + ""].""",PCS-TRN-008
+ChangeUsercode.java,notifyCardUser(),Error,""" Error reading Email Notification config.""",PCS-TRN-008
+ChangeUsercode.java,validateUsercode(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]+"" contain special character!""",PCS-TRN-008
+ChangeUsercode.java,validateUsercode(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",PCS-TRN-008
+ChangeUsercode.java,validateUsercodeExist(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",PCS-TRN-008
+ChangeUsercode.java,validateUsercodeFormat(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]+"" contain special character!""",PCS-TRN-008
+ChangeUsercode.java,validateUsercodeFormat(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",PCS-TRN-008
+ChangeUsercode.java,validateUsercodes(),Error,""" [ row index : "" + (rowIndex + 1) + "" ] :"" + ucEntry.getUsercode()",PCS-TRN-008
+ChangeUsercode.java,validateUsercodes(),Error,""" [ row index : "" + (rowIndex + 1) + "" ] :"" + ucEntry.getUsercode()",PCS-TRN-008
+Charges.java,doIgnoreAction(),Info,""" Ignored Charges' status changed successfully.""",PCS-TRN-017
+CheckTransFromAllHolders.java,doRejectAction(),Error,""" Server is busy.""",PCS-TRN-011
+CheckTransFromAllHolders.java,doRetrieveAction(),Info,""" No record was found for display in the below list.""",PCS-TRN-011
+CheckTransFromAllHolders.java,notifyHolders(String[]),Error,"""Can not find the holder's email. Email notify failed but transaction is updated!""",PCS-TRN-011
+CheckTransFromAllHolders.java,notifyHolders(String[]),Info,msg,PCS-TRN-011
+CheckTransFromAllHolders.java,notifyHolders(String[]),Error,e.getMessage(),PCS-TRN-011
+CheckTransFromAllHolders.java,notifyHolders(String[]),Info,""" No Email notification sent  because No emails found .""",PCS-TRN-011
+CheckTransFromAllHolders.java,notifyHolders(String[]),Error,""" Error - accessing Database .""",PCS-TRN-011
+CheckTransFromAllHolders.java,notifyHolders(String[]),Error,"""Error - sending email .[ SMTP Host not found :"" + root.getMessage() + ""].""",PCS-TRN-011
+CheckTransFromAllHolders.java,notifyHolders(String[]),Error,""" Error - reading Email Notification Config.""",PCS-TRN-011
+CheckTransFromAllHolders.java,"notifySupervisors(String, String[])",Info,msg,PCS-TRN-011
+CheckTransFromAllHolders.java,"notifySupervisors(String, String[])",Error,e.getMessage(),PCS-TRN-011
+CheckTransFromAllHolders.java,"notifySupervisors(String, String[])",Info,""" No Email notification sent  because No email of EU Supervisors  responsible for this section found .""",PCS-TRN-011
+CheckTransFromAllHolders.java,"notifySupervisors(String, String[])",Error,""" Error - accessing Database .""",PCS-TRN-011
+CheckTransFromAllHolders.java,"notifySupervisors(String, String[])",Error,"""Error - sending email .[ SMTP Host not found :"" + root.getMessage() + ""].""",PCS-TRN-011
+CheckTransFromAllHolders.java,"notifySupervisors(String, String[])",Error,""" Error - reading Email Notification Config.""",PCS-TRN-011
+CleanUpTrans.java,doButton1Action(),Info,"""clear successfully""",PCS-HSK-001
+CleanUpTrans.java,doButton1Action(),Error,e.getMessage(),PCS-HSK-001
+CleanUpTrans.java,doButton3Action(),Info,"""clear successfully""",PCS-HSK-001
+CleanUpTrans.java,doButton3Action(),Error,e.getMessage(),PCS-HSK-001
+ConfirmBankStatements.java,doCancelConfirm(),Info,""" Status updated successfully.""",
+ConfirmBankStatements.java,doConfirmAction(),Info,""" Status updated successfully ; """,
+ConfirmBankStatements.java,doJob(PcardTopJob),Info,""" Update Status successfully. """,
+ConfirmBankStatements.java,doRejectOneAction(),Info,""" Rejected successfully ; """,
+ConfirmBankStatements.java,doRetrieveAction(),Info,""" No record was found for display in the below list. """,
+ConfirmBankStatements.java,notifyCardUsers(String[]),Info,""" No Card Users to notify ; """,
+ConfirmBankStatements.java,notifyCardUsers(String[]),Error,""" Can't notify Card Users [ cause : No section infomation found ] .""",
+ConfirmBankStatements.java,notifyCardUsers(String[]),Error,"""Error - sending email.[ SMTP Host not found :"" + root.getMessage() + ""].""",
+ConfirmBankStatements.java,notifyCardUsers(String[]),Info,tos,
+ConfirmBankStatements.java,notifyCardUsers(String[]),Error,""" Error - accessing Database .""",
+ConfirmBankStatements.java,notifyCardUsers(String[]),Error,""" Error - reading Email Notification Config.""",
+ConfirmBankStatements.java,notifySupervisor(),Error,""" Can't notify Card Supervisor [ cause : No section infomation found ] .""",
+ConfirmBankStatements.java,notifySupervisor(),Error,"""Error - sending email.[ SMTP Host not found :"" + root.getMessage() + ""].""",
+ConfirmBankStatements.java,notifySupervisor(),Info,tos,
+ConfirmBankStatements.java,notifySupervisor(),Error,""" Error - accessing Database .""",
+ConfirmBankStatements.java,notifySupervisor(),Error,""" Error - reading Email Notification Config.""",
+CostCentreCode.java,doCreateAction(),Error,""" No Section selected. """,
+CostCentreCode.java,doCreateAction(),Error,""" please enter 'Cost Centre Code' .""",
+CostCentreCode.java,doCreateAction(),Info,""" Cost Centre Code created : "" + findSectionName(getSectionCode()) + ""/"" + getCostCentreCode()",
+CostCentreCode.java,doCreateAction(),Error,""" Create failed :"" + e.getMessage()",
+CostCentreCode.java,doDeleteAction(),Info,""" Removed successfully : ""  + findSectionName(rowData.getSectionName()) + ""/""+ rowData.getCostCentreCode()",
+CostCentreCode.java,doRetrieveAction(),Info,""" No record was found for display in the below list. """,
+CostCentreCode.java,getSections(),Error,""" Error - searching section list :"" + e.getMessage()",
+DisputeForm.java,doConfirmAction(),Error,""" Nothing to dispute """,PCS-TRN-009
+DisputeForm.java,doConfirmAction(),Error,""" Please check one Transaction Fee record .""",PCS-TRN-009
+DisputeForm.java,handleFeeChanged(ValueChangeEvent),Error,""" Error - accessing DataBase.""",PCS-TRN-009
+DisputeFormCitiBank.java,doConfirmAction(),Error,""" Nothing to dispute """,
+EditTfcode.java,doDeleteAction(),Error,""" Error .""",
+EditTfcode.java,doSaveAction(),Error,""" Total of Amount is not equals to "" + fee_amt + "", please fix amounts.""",
+EditTfcode.java,doSaveAction(),Error,""" Cost Centre Code 's length should be 4 or 0.""",
+EditTfcode.java,doSaveAction(),Info,""" Saved successfully. """,
+EuApproveHolderBase.java,"doJob(EuBatchJob, ArrayList, Integer[])",Error,""" Please check some record first.""",
+EuApproveHolderBase.java,"doJob(EuBatchJob, ArrayList, Integer[])",Info,""" Update status successfully .""",
+EuBatchJob.java,"run(String, ArrayList, Integer[], ActionHistory)",Warn,""" [ Card No : "" + rowData.getCardNo() + "" ] "" + action.getErrorStatusMsg()",
+EuBatchJob.java,"run(String, ArrayList, Integer[], ActionHistory)",Warn,"""[ Card No :"" + rowData.getCardNo() + "" ] "" + action.getErrorDependenceMsg()",
+FacesMessages.java,addErrorMsg(String),Error,String detail,
+FacesMessages.java,addInfoMsg(String),Info,String detail,
+FacesMessages.java,addWarnMsg(String),Warn,String detail,
+FacesUtil.java,addErrorMsg(String),Error,String detail,
+FacesUtil.java,addInfoMsg(String),Info,String detail,
+FacesUtil.java,addWarnMsg(String),Warn,String detail,
+FeeUsercode.java,doSaveAction(),Info,""" Update Default user code successfully .""",PCS-SYS-016
+Fees.java,doDeleteAction(),Info,""" fee_name deleted :"" + rowData.getFeeName()",PCS-SYS-008
+Fees.java,doEditAction(),Error,""" Code Width must greater than or equal to User Code's length. """,PCS-SYS-008
+Fees.java,doEditAction(),Info,""" Fee Name updated . """,PCS-SYS-008
+Fees.java,doInsertAction(),Error,""" Code Width must greater than or equal to User Code's length. """,PCS-SYS-008
+Fees.java,doInsertAction(),Info,""" Fee Name inserted . """,PCS-SYS-008
+Fees.java,validate(),Error,""" Please fill following fields : "" + b",PCS-SYS-008
+Footer.java,getConfig(),Error,""" Error - accessing PCPConfig.properties :"" + e.getMessage()",
+GenPayFile.java,doAcceptAction(),Error,""" Please check one record in 'List of File Reference' first ;""",PCS-TRN-015
+GenPayFile.java,doRemainAction(),Error,"""No remain usercode is generated at this moment.""",PCS-TRN-015
+GenPayFile.java,doRetrieveAction(),Warn,""" Please select the due date and retrieve.""",PCS-TRN-015
+GenPayFile.java,"genIt(boolean, boolean)",Warn,""" Please select the due date and retrieve.""",PCS-TRN-015
+GenPayFile.java,reGenIt(String),Warn,""" Please select the due date and retrieve.""",PCS-TRN-015
+GenPayFile.java,reGenIt(String),Warn,""" Please select the Bank and retrieve.""",PCS-TRN-015
+IgnoredItem.java,doCreateAction(),Info,""" Ignored Item added :"" + getName()",
+IgnoredItem.java,doDeleteAction(),Info,""" Ignored Item deleted :"" + sname",
+IgnoredItem.java,doEditAction(),Info,""" Ignored Item updated :""
+					+ ((oldName == null || oldName.equalsIgnoreCase(NULL_STRING)) ? item.getItemName() : oldName)
+					+ ""->""
+					+ sname",
+InputUserCodePmsu.java,doConfirmAction(),Error,""" Total of user code amounts should be equal to 'Billing Amount'.""",
+InputUserCodePmsu.java,doConfirmAction(),Error,""" Following  UserCode not found in GFMIS system ,if you still like to proceed , please press confirm again .""",
+InputUserCodePmsu.java,doConfirmAction(),Error,"""The usercode format is invalid!""",
+InputUserCodePmsu.java,doConfirmAction(),Error,""" No payment no. , so can't change user code.""",
+InputUserCodePmsu.java,doDeleteAction(),Error,"""IndexOutOfBoundsException :"" + e.getMessage()",
+InputUserCodePmsu.java,notifyCardUser(),Info,""" Email Notification sent to :"" + creator.getUsername()",
+InputUserCodePmsu.java,notifyCardUser(),Error,e.getMessage(),
+InputUserCodePmsu.java,notifyCardUser(),Error,""" P-Card User has't a valid email address .""",
+InputUserCodePmsu.java,notifyCardUser(),Error,""" Error accessing Database.""",
+InputUserCodePmsu.java,notifyCardUser(),Error,"""Error - sending email.[ SMTP Host not found :"" + root.getMessage() + ""].""",
+InputUserCodePmsu.java,notifyCardUser(),Error,""" Error reading Email Notification config.""",
+InputUserCodePmsu.java,validateUsercode(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]+"" contain special character!""",
+InputUserCodePmsu.java,validateUsercode(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",
+InputUserCodePmsu.java,validateUsercodeExist(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",
+InputUserCodePmsu.java,validateUsercodeFormat(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]+"" contain special character!""",
+InputUserCodePmsu.java,validateUsercodeFormat(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",
+InputUserCodePmsu.java,validateUsercodes(),Error,""" [ row index : "" + (rowIndex + 1) + "" ] :"" + ucEntry.getUsercode()",
+InputUserCodePmsu.java,validateUsercodes(),Error,""" [ row index : "" + (rowIndex + 1) + "" ] :"" + ucEntry.getUsercode()",
+InterfaceControl.java,doEditAction(),Info,""" Saved successfully.""",PCS-SYS-017
+InterfaceControl.java,validateFields(),Error,""" Please enter 'Department Code' .""",PCS-SYS-017
+InterfaceControl.java,validateFields(),Error,""" Please enter 'System ID' .""",PCS-SYS-017
+InterfaceControl.java,validateFields(),Error,""" Please enter 'Source' . """,PCS-SYS-017
+InterfaceControl.java,validateFields(),Error,""" Please enter 'Financial Year' .""",PCS-SYS-017
+InterfaceControl.java,validateFields(),Error,""" Please enter 'DVN Range minimal ' . """,PCS-SYS-017
+InterfaceControl.java,validateFields(),Error,""" Please enter 'DVN Range maximal' . """,PCS-SYS-017
+Loginlet.java,doLoginAction(),Error,""" Please enter User ID & Password. """,
+Loginlet.java,validateFiels(),Error,""" Please enter 'User ID' .""",
+Loginlet.java,validateFiels(),Error,""" Please enter 'Password' .""",
+Main.java,doDeleteCurrentDueDateAction(),Info,"""current due date deleted!""",
+Main.java,doDeleteCurrentDueDateAction(),Error,e.getMessage(),
+Main.java,doRunAction(),Error,""" Please 'Enable Night Auto-Batch Match Job'  first . """,
+Main.java,doRunAction(),Info,strMsg,
+Main.java,doRunAction(),Info,msg,
+Main.java,doSendAutoBatchNightJobMail(),Info,strMsg,
+Main.java,doSendAutoBatchNightJobMail(),Info,msg,
+Main.java,doSendAutoBatchNightJobMail(),Error,"""Error - sending email.[ SMTP Host not found :"" + root.getMessage() + ""].""",
+Main.java,doSendAutoBatchNightJobMail(),Info,""" 'Night Auto Batch match job' already runned , but email notification sent failed .""",
+MatchVerifyTrans.java,AcceptPmsuData(),Info,""" Accepted transaction moved up to 'Matched/Accepted/Disputed' List  ;""",PCS-TRN-005
+MatchVerifyTrans.java,acceptAfter(Integer),Info,""" Accepted transaction moved up to 'Matched/Accepted/Disputed' List  ;""",PCS-TRN-005
+MatchVerifyTrans.java,aucAfter(Integer),Info,""" Accepted transaction moved up to 'Matched/Accepted/Disputed' List  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doAcceptAction(),Error,""" Please one records in 'List of Outstanding Bank Transactions' first ;""",PCS-TRN-005
+MatchVerifyTrans.java,doAcceptAction(),Error,""" Can't Accept Disputed transactions  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doAcceptAction(),Info,""" Accepted transaction moved up to 'Matched/Accepted/Disputed' List  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doAcceptAction(),Error,""" Can't Accept this transaction.  (cause : This transaction 's description do not exist in 'Fee Name List' ) ;""",PCS-TRN-005
+MatchVerifyTrans.java,doAcceptAction_Backup(),Error,""" Please one records in 'List of Outstanding Bank Transactions' first ;""",PCS-TRN-005
+MatchVerifyTrans.java,doAcceptAction_Backup(),Error,""" Can't Accept Disputed transactions  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doAcceptAction_Backup(),Error,""" Can't Accept this transaction.  (cause : This transaction 's description do not exist in 'Fee Name List' ) ;""",PCS-TRN-005
+MatchVerifyTrans.java,doAcceptAction_Backup(),Error,""" No Fee User code for this fee type found ;""",PCS-TRN-005
+MatchVerifyTrans.java,doAcceptAction_Backup(),Info,""" Accepted transaction moved up to 'Matched/Accepted/Disputed' List  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doAcceptAction_Backup(),Info,""" Accepted transaction moved up to 'Matched/Accepted/Disputed' List  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doButtonAcceptPMSUAction(),Error,""" Please one records in 'List of Outstanding PMSU Bank Transactions' first ;""",PCS-TRN-005
+MatchVerifyTrans.java,doButtonAcceptPMSUAction(),Error,""" Can't Accept Disputed transactions  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doButtonAcceptPMSUAction(),Error,""" Can't Accept this transaction.  (cause : This transaction 's description  not exist in 'Fee Name List' ) ;""",PCS-TRN-005
+MatchVerifyTrans.java,doButtonAcceptPMSUAction(),Info,""" Accepted transaction moved up to 'Matched/Accepted/Disputed' List  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doButtonCancelDisputePMSUAction(),Error,""" Please check one record in 'List of Outstanding PMSU Bank Transactions' at least first.""",PCS-TRN-005
+MatchVerifyTrans.java,doButtonCancelDisputePMSUAction(),Info,"rows.length + "" Disputed Transactions cancelled .""",PCS-TRN-005
+MatchVerifyTrans.java,doButtonDisputePMSUAction(),Error,""" Please check one record in 'List of Outstanding PMSU Bank Transactions' first  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doButtonDisputePMSUAction(),Error,""" Can't dispute a Transaction Fee record. """,PCS-TRN-005
+MatchVerifyTrans.java,doButtonGenDisputeFormPMSUAction(),Error,""" Please check a record for dispute ;""",PCS-TRN-005
+MatchVerifyTrans.java,doCancelDisputeAction(),Error,""" Please check one record in 'List of Outstanding Bank Transactions' at least first.""",PCS-TRN-005
+MatchVerifyTrans.java,doCancelDisputeAction(),Info,"rows.length + "" Disputed Transactions cancelled .""",PCS-TRN-005
+MatchVerifyTrans.java,doCancelMatchAction(),Error,"""Please check one record  in 'List of Matched / Accepted / Disputed Transactions' first  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doCancelVerifyAction(),Error,""" Please check some records in Matched / Accepted List.""",PCS-TRN-005
+MatchVerifyTrans.java,doCancelVerifyAction(),Info,""" Status updated successfully. """,PCS-TRN-005
+MatchVerifyTrans.java,doChangePCSUserCodeAction(),Error,""" Please one records in 'List of Outstanding Bank Transactions' first ;""",PCS-TRN-005
+MatchVerifyTrans.java,doChangePCSUserCodeAction(),Error,""" Can't Accept Disputed transactions  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doConfirmAction(),Error,""" Your profile is no P-Card supervisor in DPAS. """,PCS-TRN-005
+MatchVerifyTrans.java,doConfirmAction(),Error,""" Pcard Holder can't submit transaction record to himself/herself. """,PCS-TRN-005
+MatchVerifyTrans.java,doConfirmAction(),Error,""" Please verify all transactions first ; """,PCS-TRN-005
+MatchVerifyTrans.java,doDisputeAction(),Error,""" Please check one record in 'List of Outstanding Bank Transactions' first  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doDisputeAction(),Error,""" Can't dispute a Transaction Fee record. """,PCS-TRN-005
+MatchVerifyTrans.java,doGenDisputeFormAction(),Error,""" Please check a record for dispute ;""",PCS-TRN-005
+MatchVerifyTrans.java,doGenDisputeFormAction(),Error,""" Can't print dispute form a non disputed transaction.""",PCS-TRN-005
+MatchVerifyTrans.java,doMatchAction(),Error,""" Please check one record in 'List of Outstanding Bank Transactions' first ;""",PCS-TRN-005
+MatchVerifyTrans.java,doMatchAction(),Error,""" Please check one record in 'List of Outstanding DPAS/CIS Transactions' first  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doMatchAction(),Error,""" Can't Match a FEE or CHARGE  to payments ; """,PCS-TRN-005
+MatchVerifyTrans.java,doMatchAction(),Error,""" Can 't   match DISPUTED transaction to payments  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doPMSUMatchAction(),Error,""" Please check one record in 'List of Outstanding PMSU Bank Transactions' first ;""",PCS-TRN-005
+MatchVerifyTrans.java,doPMSUMatchAction(),Error,""" Please check one record in 'List of Outstanding PMSU Transactions' first  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doPMSUMatchAction(),Error,""" Can't Match a FEE or CHARGE  to payments ; """,PCS-TRN-005
+MatchVerifyTrans.java,doPMSUMatchAction(),Error,""" Can 't   match DISPUTED transaction to payments  ;""",PCS-TRN-005
+MatchVerifyTrans.java,doRejectToDPASAction(),Error,""" Please select records in 'List of Outstanding DPAS Transactions' first ;""",PCS-TRN-005
+MatchVerifyTrans.java,doRejectToDPASAction(),Info,""" Outstanding DPAS transaction is removed to DPAS system ;""",PCS-TRN-005
+MatchVerifyTrans.java,doRetrieveAction(),Info,""" No record was found for display in the below list.""",PCS-TRN-005
+MatchVerifyTrans.java,doRetrieveAction(),Info,""" No action is required.""",PCS-TRN-005
+MatchVerifyTrans.java,doSubmitAction_Backup(),Error,""" Please verify all transactions first ; """,PCS-TRN-005
+MatchVerifyTrans.java,doVerifyAction(),Error,""" Please check some 'Match / Accepted'  record first. """,PCS-TRN-005
+MatchVerifyTrans.java,doVerifyAction(),Error,"""Invalid usercode : ""+uc1+"", it should be uppercased!""",PCS-TRN-005
+MatchVerifyTrans.java,doVerifyAction(),Error,"""Invalid usercode : ""+uc+"" in row ""+ (rows[i].intValue()+1)+"" contain special character!""",PCS-TRN-005
+MatchVerifyTrans.java,doVerifyAction(),Error,"""Invalid usercode : ""+uc+"" in row ""+ (rows[i].intValue()+1)",PCS-TRN-005
+MatchVerifyTrans.java,doVerifyAction(),Error,"""Invalid usercode : ""+dpas.getUserCode()+"" in row ""+ (rows[i].intValue()+1)",PCS-TRN-005
+MatchVerifyTrans.java,loadPcardHolderName(String),Error,e.getMessage(),PCS-TRN-005
+MatchVerifyTrans.java,loadPcardHolderName(String),Error,e.getMessage(),PCS-TRN-005
+MatchVerifyTrans.java,middleHasDisputed(Integer[]),Error,""" Data changed, have you modified data at another page ?""",PCS-TRN-005
+MatchVerifyTrans.java,notifyHolder(),Info,""" Email notification sent to :"" + holder.getUsername() + "" ;""",PCS-TRN-005
+MatchVerifyTrans.java,notifyHolder(),Error,e.getMessage(),PCS-TRN-005
+MatchVerifyTrans.java,notifyHolder(),Error,""" P-Card Holder  has't valid email address .""",PCS-TRN-005
+MatchVerifyTrans.java,notifyHolder(),Error,""" Error accessing Database.""",PCS-TRN-005
+MatchVerifyTrans.java,notifyHolder(),Error,""" Error - sending mail notification .[ SMTP Host not found :"" + root.getMessage() + ""].""",PCS-TRN-005
+MatchVerifyTrans.java,notifyHolder(),Error,""" Error reading Email Notification config.""",PCS-TRN-005
+MatchVerifyTrans.java,notifySupervisor(),Error,""" Can't notify Card Supervisor [ cause : No section infomation found ] .""",PCS-TRN-005
+MatchVerifyTrans.java,notifySupervisor(),Info,validNames,PCS-TRN-005
+MatchVerifyTrans.java,notifySupervisor(),Error,""" Error - accessing Database .""",PCS-TRN-005
+MatchVerifyTrans.java,notifySupervisor(),Error,""" Error - reading Email Notification Config.""",PCS-TRN-005
+MatchVerifyTrans.java,notifySupervisor(),Error,"""Error - sending email.[ SMTP Host not found :"" + root.getMessage() + ""].""",PCS-TRN-005
+OutOffice.java,doActivateAction(),Error,""" You are currently acting as a designated officer for someone & he/she is out of office , so you can't activate out of office function .""",
+OutOffice.java,doActivateAction(),Error,""" Please assign an Officer  . """,
+OutOffice.java,doActivateAction(),Error,""" Start Date must be NOT LATER THAN End Date .""",
+OutOffice.java,doActivateAction(),Error,""" Start Date Must be NOT EARLIER THAN Today . """,
+OutOffice.java,doActivateAction(),Info,""" 'Out of Office' function Activated .""",
+OutOffice.java,doDeactivateAction(),Info,""" 'Out of Office' funcion Deactivated .""",
+PCardProfileEnquiry.java,doSearchAction(),Info,"""No record was found for display in the below list.""",
+PageAccess.java,doLinkDeleteAction(),Info,"""Record deleted .""",
+PageCodeBase.java,addErrorMsg(String),Error,String detail,
+PageCodeBase.java,addExceptionMsg(Throwable),Error,getRootMessage(e),
+PageCodeBase.java,addInfoMsg(String),Info,String detail,
+PageCodeBase.java,addWarnMsg(String),Warn,String detail,
+PcardDetailForCard.java,doRetrieveAction(),Info,""" No record was found for display in the below list.""",PCS-TRN-012
+PcardDetailForSection.java,doRejectAction(),Error,""" Server is busy.""",PCS-TRN-014
+PcardDetailForSection.java,doRetrieveAction(),Info,""" No record was found for display in the below list.""",PCS-TRN-014
+PcardDetailForSection.java,notifyEuClerks(String),Info,msg,PCS-TRN-014
+PcardDetailForSection.java,notifyEuClerks(String),Error,e.getMessage(),PCS-TRN-014
+PcardDetailForSection.java,notifyEuClerks(String),Info,""" No Email notification sent  because No email of EU Supervisors  responsible for this section found .""",PCS-TRN-014
+PcardDetailForSection.java,notifyEuClerks(String),Error,""" Error - accessing Database .""",PCS-TRN-014
+PcardDetailForSection.java,notifyEuClerks(String),Error,"""Error - sending email .[ SMTP Host not found :"" + root.getMessage() + ""].""",PCS-TRN-014
+PcardDetailForSection.java,notifyEuClerks(String),Error,""" Error - reading Email Notification Config.""",PCS-TRN-014
+PcardDetailForSection.java,notifyHolders(String[]),Info,msg,PCS-TRN-014
+PcardDetailForSection.java,notifyHolders(String[]),Error,e.getMessage(),PCS-TRN-014
+PcardDetailForSection.java,notifyHolders(String[]),Info,""" No Email notification sent  because No emails found .""",PCS-TRN-014
+PcardDetailForSection.java,notifyHolders(String[]),Error,""" Error - accessing Database .""",PCS-TRN-014
+PcardDetailForSection.java,notifyHolders(String[]),Error,"""Error - sending email .[ SMTP Host not found :"" + root.getMessage() + ""].""",PCS-TRN-014
+PcardDetailForSection.java,notifyHolders(String[]),Error,""" Error - reading Email Notification Config.""",PCS-TRN-014
+PcardDetailForSection.java,updateApprovalStatus(BaseDataJob),Error,""" Please check some records  first. """,PCS-TRN-014
+PcardDetailForSection.java,updateApprovalStatus(BaseDataJob),Info,""" Update status successfully. """,PCS-TRN-014
+PcardTopJob.java,"run(String, String, ArrayList, Integer[], ActionHistory)",Warn,""" [action depends on opposite ] action : ""
+						+ statusMap.get(action.fromStatus)
+						+ "" --> ""
+						+ statusMap.get(action.toStatus)",
+ReasonList.java,doCreateAction(),Error,""" Please enter Reason .""",PCS-SYS-013
+ReasonList.java,doCreateAction(),Info,""" Reason created [ id ="" + getReason().getReasonId() + ""].""",PCS-SYS-013
+ReasonList.java,doDeleteAction(),Info,""" Reason  deleted [ id ="" + current.getReasonId() + "" , reason ="" + current.getReason() + ""] .""",PCS-SYS-013
+ReasonList.java,doEditAction(),Info,""" updated  successfully. """,PCS-SYS-013
+ReasonList.java,doRefreshAction(),Info,""" Latest reason list retrieved. """,PCS-SYS-013
+ReminderSchedule.java,doSaveAction(),Info,""" Update succesfully. """,
+SectionEnquiry.java,onPageLoadBegin(FacesContext),Info,""" No record was found for display in the below list.""",PCS-ENQ-003
+SelectUserCode.java,doAddAction(),Error,""" Please select some records from search result list first. """,PCS-TRN-006
+SelectUserCode.java,doRemoveAction(),Error,""" Please select some records from selected list first. """,PCS-TRN-006
+SummaryAfterUpload.java,doCancelAction(),Warn,""" No anything to Delete .""",PCS-TRN-002
+SummaryAfterUpload.java,setEnableStatus(boolean),Info,""" Auto - Match enabled.""",PCS-TRN-002
+SummaryAfterUpload.java,setEnableStatus(boolean),Info,""" Auto - Match disabled.""",PCS-TRN-002
+SummaryAfterUploadPMSU.java,doCancelAction(),Warn,""" No anything to Delete .""",
+SummaryAfterUploadPMSU.java,setEnableStatus(boolean),Info,""" Auto - Match enabled.""",
+SummaryAfterUploadPMSU.java,setEnableStatus(boolean),Info,""" Auto - Match disabled.""",
+Team.java,doDeleteAction(),Info,""" A Team removed : "" + desc",PCS-SYS-006
+Team.java,doSaveAction(),Info,""" Team Infomation updated. """,PCS-SYS-006
+TeamEnquiry.java,doRetrieveAction(),Info,""" No record was found for display in the below list.""",PCS-ENQ-005
+TeamEnquiry.java,doRetrieveAction(),Info,""" No record was found for display in the below list.""",PCS-ENQ-005
+TeamEnquiry.java,doRetrieveAction(),Info,""" No record was found for display in the below list.""",PCS-ENQ-005
+TeamMapNew.java,doAddAction(),Error,""" Please check some sections from left list . """,PCS-SYS-007
+TeamMapNew.java,doAddAction(),Info,"(rows.length - cnt) + "" sections added to list  ( duplicate :"" + cnt + "" ).""",PCS-SYS-007
+TeamMapNew.java,doAddAction(),Info,"rows.length + "" sections added to list . """,PCS-SYS-007
+TeamMapNew.java,doRemoveAction(),Error,""" Please check some sections from right list . """,PCS-SYS-007
+TeamMapNew.java,doRemoveAction(),Info,"rows.length + "" sections removed from list . """,PCS-SYS-007
+TeamMapNew.java,doSaveAction(),Error,""" Please check some sections .""",PCS-SYS-007
+TeamMapNew.java,doSaveAction(),Info,"""Team :"" + team.getDescription() + "" created [ id :"" + getTeamId() + "" ] .""",PCS-SYS-007
+TeamMapNew.java,doSaveAction(),Error,""" Invalid team id .""",PCS-SYS-007
+TeamMapNew.java,doSaveAction(),Error,""" Invalid data or team with same description (name) already exists.""",PCS-SYS-007
+TeamSectionMap.java,doAddAction(),Error,""" Please check some sections from left list . """,
+TeamSectionMap.java,doAddAction(),Info,"(rows.length - cnt) + "" sections added to list  ( duplicate :"" + cnt + "" ).""",
+TeamSectionMap.java,doAddAction(),Info,"rows.length + "" sections added to list . """,
+TeamSectionMap.java,doRemoveAction(),Error,""" Please check some sections from right list . """,
+TeamSectionMap.java,doRemoveAction(),Info,"rows.length + "" sections removed from list . """,
+TeamSectionMap.java,doSaveAction(),Error,""" No Team ID found. """,
+TeamSectionMap.java,doSaveAction(),Error,""" Please check some sections .""",
+TeamSectionMap.java,doSaveAction(),Info,""" Saved successfully. """,
+TeamSectionMap.java,doSaveAction(),Error,""" Invalid team id .""",
+TotalPayForSection.java,doJob(EuApproveBatchJob),Error,""" Please check some record first.""",PCS-TRN-013
+TotalPayForSection.java,doJob(EuApproveBatchJob),Info,""" Update status successfully .""",PCS-TRN-013
+TotalPayForSection.java,doRetrieveAction(),Info,""" No record was found for display in the below list.""",PCS-TRN-013
+TotalPayForSection.java,"run(String, ArrayList, Integer[], ActionHistory)",Warn,""" [ section : ""
+						+ rowData.getSectionCode()
+						+ "" ] failed : No transactions under status  : ""
+						+ statusMap.getStatusDesc(action.fromStatus)
+",PCS-TRN-013
+TotalPayForSection.java,"run(String, ArrayList, Integer[], ActionHistory)",Warn,""" [ section : ""
+							+ rowData.getSectionCode()
+							+ "" failed  :  action depends on opposite ] :  current action :""
+							+ statusMap.getStatusDesc(action.fromStatus)
+							+ "" --> ""
+							+ statusMap.getStatusDesc(action.toStatus)",PCS-TRN-013
+TotalPayForSection.java,"run(String, ArrayList, Integer[], ActionHistory)",Info,""" "" + cnt + "" transactions 's status  updated .""",PCS-TRN-013
+TransHistoryEnquiry.java,doRetrieveAction(),Error,""" Nothing to query.""",PCS-ENQ-004
+TransHistoryEnquiry.java,doRetrieveAction(),Info,""" No record was found for display in the below list.""",PCS-ENQ-004
+Ucformats.java,doDeleteAction(),Info,""" User Code Format deleted :"" + rowData.getUsercode() + ""/width :"" + rowData.getCodewidth()",PCS-SYS-018
+Ucformats.java,doEditAction(),Error,""" Code Width must greater than or equal to User Code's length. """,PCS-SYS-018
+Ucformats.java,doEditAction(),Info,""" User Code Format updated . """,PCS-SYS-018
+Ucformats.java,doInsertAction(),Info,""" User Code Format inserted . """,PCS-SYS-018
+Ucformats.java,validate(),Error,""" Please fill following fields : "" + b",PCS-SYS-018
+UploadPMSUData.java,doUploadAction(),Error,""" A transaction file for this month already uploaded .""",
+UploadPMSUData.java,upload(),Error,""" Please upload an excel file .""",
+UploadPMSUData.java,upload(),Error,""" Please check the file type .""",
+UploadPMSUData.java,upload(),Error,""" Already uploaded for this month .""",
+UploadPMSUData.java,upload(),Error,""" File is already uploaded successfully. """,
+UploadPMSUData.java,upload(),Error,""" File Already exists . """,
+UploadPMSUData.java,validateFields(),Error,""" Please upload a non-empty file .""",
+UploadTransData.java,doUploadAction(),Error,""" A transaction file for this month already uploaded .""",PCS-TRN-001
+UploadTransData.java,upload(),Error,""" Please select  Due Date .""",PCS-TRN-001
+UploadTransData.java,upload(),Error,""" Already uploaded for this month .""",PCS-TRN-001
+UploadTransData.java,upload(),Error,""" Transaction Data file already exist. """,PCS-TRN-001
+UploadTransData.java,upload(),Error,""" Please select the correct bank code for this batch transactions . """,PCS-TRN-001
+UploadTransData.java,upload(),Error,""" File Already exists . """,PCS-TRN-001
+UploadTransData.java,validateFields(),Error,""" Please upload a non-empty file .""",PCS-TRN-001
+UploadTransData.java,validateFields(),Error,""" Please enter 'Due Date' .""",PCS-TRN-001
+UploadTransData.java,validateFields(),Error,""" 'Due Date' should be later than '"" + new SimpleDateFormat(""dd/MM/yyyy"").format(latest) + ""'.""",PCS-TRN-001
+UploadTransData.java,validateFields(),Error,""" 'Due Date' should be later than TODAY.""",PCS-TRN-001
+UserProfileDetail.java,doDeleteAction(),Warn,""" Current User Profile is referenced as designated user by following users , if you still like to process , please press Delete again ? """,
+UserProfileDetail.java,doDeleteAction(),Warn,""" User ID :"" + refBys[i].getKey() + "" , Name :"" + refBys[i].getValue()",
+UserProfileDetail.java,doDeleteAction(),Info,""" User Profile Deleted successfully. """,
+UserProfileDetail.java,doDeleteAction(),Error,"""Error :"" + e.getErrorCode() + "":"" + e.getMessage()",
+UserProfileDetail.java,doDeleteAction(),Error,"""Error :"" + next.getErrorCode() + "":"" + next.getMessage()",
+UserProfileDetail.java,doDeleteAction(),Error,""" Error - accessing database. """,
+UserProfileEnquiry.java,doRetrieveAction(),Info,""" No record was found for display in the below list.""",PCS-SYS-001
+UserProfileNew.java,doSaveAction(),Error,"""The user is already existed.""",PCS-SYS-002
+UserProfileNew.java,doSaveAction(),Info,"""Save user successfully""",PCS-SYS-002
+UserProfileNew.java,doSaveAction(),Error,e.getMessage(),PCS-SYS-002
+UserProfileNew.java,validate(),Error,""" EU Clerk can only belong to ONE team.""",PCS-SYS-002
+UserProfileNew.java,validate(),Error,""" Please assign  team to user """,PCS-SYS-002
+UserProfileUpdate.java,doDeleteAction(),Warn,""" Current User Profile is referenced as designated user by following users , if you still like to process , please press Delete again ? """,PCS-SYS-003
+UserProfileUpdate.java,doDeleteAction(),Warn,""" User ID :"" + refBys[i].getKey() + "" , Name :"" + refBys[i].getValue()",PCS-SYS-003
+UserProfileUpdate.java,doDeleteAction(),Info,""" User Profile Deleted successfully. """,PCS-SYS-003
+UserProfileUpdate.java,doDeleteAction(),Error,"""Error :"" + e.getErrorCode() + "":"" + e.getMessage()",PCS-SYS-003
+UserProfileUpdate.java,doDeleteAction(),Error,"""Error :"" + next.getErrorCode() + "":"" + next.getMessage()",PCS-SYS-003
+UserProfileUpdate.java,doDeleteAction(),Error,""" Error - accessing database. """,PCS-SYS-003
+UserProfileUpdate.java,doUpdateAction(),Info,"""update user successfully""",PCS-SYS-003
+UserProfileUpdate.java,validate(),Error,""" Please enter 'User Name' .""",PCS-SYS-003
+UserProfileUpdate.java,validate(),Error,""" Please enter 'User Post' .""",PCS-SYS-003
+UserProfileUpdate.java,validate(),Error,""" 'Password' should be equal to 'Confirm Password' .""",PCS-SYS-003
+UserProfileUpdate.java,validate(),Error,""" EU Clerk can only belong to ONE team.""",PCS-SYS-003
+ViewUsercode.java,doComfirmAction(),Error,""" Total of user code amounts should be equal to 'Billing Amount'.""",
+ViewUsercode.java,doComfirmAction(),Error,""" No payment no. , so can't change user code.""",
+ViewUsercode.java,doComfirmAction(),Error,""" Following  UserCode not found in GFMIS system ,if you still like to proceed , please press confirm again .""",
+ViewUsercode.java,doComfirmAction(),Error,"""The usercode format is invalid!""",
+ViewUsercode.java,doDeleteAction(),Error,"""IndexOutOfBoundsException :"" + e.getMessage()",
+ViewUsercode.java,notifyCardUser(),Info,""" Email Notification sent to :"" + creator.getUsername()",
+ViewUsercode.java,notifyCardUser(),Error,e.getMessage(),
+ViewUsercode.java,notifyCardUser(),Error,""" P-Card User has't a valid email address .""",
+ViewUsercode.java,notifyCardUser(),Error,""" Error accessing Database.""",
+ViewUsercode.java,notifyCardUser(),Error,"""Error - sending email.[ SMTP Host not found :"" + root.getMessage() + ""].""",
+ViewUsercode.java,notifyCardUser(),Error,""" Error reading Email Notification config.""",
+ViewUsercode.java,validateUsercode(String[]),Error,p,
+ViewUsercode.java,validateUsercode(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",
+ViewUsercode.java,validateUsercodeExist(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",
+ViewUsercode.java,validateUsercodeFormat(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]+"" contain special character!""",
+ViewUsercode.java,validateUsercodeFormat(String[]),Error,""" [ row index : "" + (i + 1) + "" ] :"" + ucs[i]",
+ViewUsercode.java,validateUsercodes(),Error,""" [ row index : "" + (rowIndex + 1) + "" ] :"" + ucEntry.getUsercode()",
+ViewUsercode.java,validateUsercodes(),Error,""" [ row index : "" + (rowIndex + 1) + "" ] :"" + ucEntry.getUsercode()",

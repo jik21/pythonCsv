@@ -1,0 +1,443 @@
+BATCHBILLING
+BATCH_BILLING_REF_NO, BATCH BILLING REF NO, Alphabets, varchar, 20
+DUE_DATE_REF_NO, DUE DATE REF NO, Alphabets, varchar, 15
+FIN_YR, FIN YR, Alphabets, varchar, 2
+VIO, VIO, Alphabets, varchar, 15
+STATUS, STATUS, Decimal number, numeric, (2|0)
+TIME_STAMP, TIME STAMP, Datetime, datetime2, ,N
+BATCHREF, BATCHREF, Alphabets, varchar, 50
+INBOUNDFILE, INBOUNDFILE, Alphabets, varchar, 50
+ACTION, ACTION, Alphabets, varchar, 4000
+USER_INPUT_VOUCHER_NO, USER INPUT VOUCHER NO, Alphabets, varchar, 20
+USER_INPUT_REMARKS, USER INPUT REMARKS, Alphabets, varchar, 100
+CITIBANK_AMT_PARAM
+TYPE, TYPE, Alphabets, varchar, 100
+TRX_CODE, TRX CODE, Alphabets, varchar, 4
+SIGN, SIGN, Alphabets, varchar, 1
+DETAIL
+TRANS_ID, TRANS ID, Alphabets, varchar, 7
+TRANS_ID, TRANS ID, Alphabets, varchar, 7
+DUE_DATE_REF_NO, DUE DATE REF NO, Alphabets, varchar, 15
+CARDHOLDER_LIMIT, CARDHOLDER LIMIT, Decimal number, numeric, (18|2)
+CARD_STATUS, CARD STATUS, Alphabets, varchar, 1
+BILLING_AMT_CRE, BILLING AMT CRE, Decimal number, numeric, (18|2)
+BILLING_AMT, BILLING AMT, Decimal number, numeric, (18|2)
+TRANS_DESC, TRANS DESC, Alphabets, varchar, 100
+TRANS_AMT_CRE, TRANS AMT CRE, Decimal number, numeric, (18|2)
+TRANS_AMT, TRANS AMT, Decimal number, numeric, (18|2)
+TRANS_DATE, TRANS DATE, Datetime, datetime2, ,N
+TRANS_STATUS_CODE, TRANS STATUS CODE, Alphabets, varchar, 1
+POSTED_DATE, POSTED DATE, Datetime, datetime2, ,N
+ACQ_REF_NO, ACQ REF NO, Alphabets, varchar, 23
+MERCHANT_CATEGORY_CODE, MERCHANT CATEGORY CODE, Integers, smallint, ,N
+MERCHANT_COUNTRY_CODE, MERCHANT COUNTRY CODE, Alphabets, varchar, 3
+CUST_REF_ID, CUST REF ID, Alphabets, varchar, 17
+ORDER_NO, ORDER NO, Alphabets, varchar, 25
+COMMODITY_DESC, COMMODITY DESC, Alphabets, varchar, 50
+DISPUTED, DISPUTED, Alphabets, char, 1
+PCARD_NO, PCARD NO, Alphabets, varchar, 16
+PCARD_NO, PCARD NO, Alphabets, varchar, 16
+LAST_UPDATE_USER, LAST UPDATE USER, Alphabets, varchar, 15
+BU_NAME, BU NAME, Alphabets, varchar, 30
+USERCODE_SEQNO, USERCODE SEQNO, Integers, smallint, ,N
+NOTIFY_STATUS, NOTIFY STATUS, Alphabets, char, 1
+IGNORED, IGNORED, Alphabets, char, 1
+REJECT_DESC, REJECT DESC, Alphabets, varchar, 200
+C_TRANS_ID, C TRANS ID, Alphabets, varchar, 7
+PUSER_SUBMIT_DATE, PUSER SUBMIT DATE, Datetime, datetime2, ,N
+FEE_DISPUTE_AMT, FEE DISPUTE AMT, Decimal number, numeric, (18|2)
+ACCEPTED, ACCEPTED, Alphabets, varchar, 1
+TRANS_TYPE_ID, TRANS TYPE ID, Integers, smallint, ,N
+FOREIGN_AMT, FOREIGN AMT, Decimal number, numeric, (18|2)
+FOREIGN_CUR, FOREIGN CUR, Alphabets, varchar, 3
+DETAIL_PRE_CHECK
+TRANS_ID, TRANS ID, Alphabets, varchar, 7
+DUE_DATE_REF_NO, DUE DATE REF NO, Alphabets, varchar, 15
+CARDHOLDER_LIMIT, CARDHOLDER LIMIT, Decimal number, numeric, (18|2)
+CARD_STATUS, CARD STATUS, Alphabets, varchar, 1
+BILLING_AMT_CRE, BILLING AMT CRE, Decimal number, numeric, (18|2)
+BILLING_AMT, BILLING AMT, Decimal number, numeric, (18|2)
+TRANS_DESC, TRANS DESC, Alphabets, varchar, 100
+TRANS_AMT_CRE, TRANS AMT CRE, Decimal number, numeric, (18|2)
+TRANS_AMT, TRANS AMT, Decimal number, numeric, (18|2)
+TRANS_DATE, TRANS DATE, Datetime, datetime2, ,N
+TRANS_STATUS_CODE, TRANS STATUS CODE, Alphabets, varchar, 1
+POSTED_DATE, POSTED DATE, Datetime, datetime2, ,N
+ACQ_REF_NO, ACQ REF NO, Alphabets, varchar, 23
+MERCHANT_CATEGORY_CODE, MERCHANT CATEGORY CODE, Integers, smallint, ,N
+MERCHANT_COUNTRY_CODE, MERCHANT COUNTRY CODE, Alphabets, varchar, 3
+CUST_REF_ID, CUST REF ID, Alphabets, varchar, 17
+ORDER_NO, ORDER NO, Alphabets, varchar, 25
+COMMODITY_DESC, COMMODITY DESC, Alphabets, varchar, 50
+DISPUTED, DISPUTED, Alphabets, char, 1
+PCARD_NO, PCARD NO, Alphabets, varchar, 16
+LAST_UPDATE_USER, LAST UPDATE USER, Alphabets, varchar, 15
+BU_NAME, BU NAME, Alphabets, varchar, 30
+USERCODE_SEQNO, USERCODE SEQNO, Integers, smallint, ,N
+NOTIFY_STATUS, NOTIFY STATUS, Alphabets, char, 1
+IGNORED, IGNORED, Alphabets, char, 1
+REJECT_DESC, REJECT DESC, Alphabets, varchar, 200
+C_TRANS_ID, C TRANS ID, Alphabets, varchar, 7
+PUSER_SUBMIT_DATE, PUSER SUBMIT DATE, Datetime, datetime2, ,N
+FEE_DISPUTE_AMT, FEE DISPUTE AMT, Decimal number, numeric, (18|2)
+ACCEPTED, ACCEPTED, Alphabets, varchar, 1
+TRANS_TYPE_ID, TRANS TYPE ID, Integers, smallint, ,N
+FOREIGN_AMT, FOREIGN AMT, Decimal number, numeric, (18|2)
+FOREIGN_CUR, FOREIGN CUR, Alphabets, varchar, 3
+DISPUTE
+DISPUTE_REF_NO, DISPUTE REF NO, Alphabets, varchar, 7
+TRANS_ID, TRANS ID, Alphabets, varchar, 7
+BILLING_AMT, BILLING AMT, Decimal number, numeric, (18|2)
+DISPUTE_AMT, DISPUTE AMT, Decimal number, numeric, (18|2)
+TRANS_DATE, TRANS DATE, Datetime, datetime2, ,N
+REASON_FOR_DISPUTE, REASON FOR DISPUTE, Alphabets, varchar, 50
+REASON_CODE, REASON CODE, Alphabets, varchar, 11
+REMARKS, REMARKS, Alphabets, varchar, 100
+TEL, TEL, Alphabets, varchar, 20
+ADDRESS, ADDRESS, Alphabets, varchar, 50
+REASON_ID, REASON ID, Integers, smallint, ,N
+FEE_USERCODE, FEE USERCODE, Alphabets, varchar, 40
+FEE_ID, FEE ID, Alphabets, varchar, 7
+HOUR_TO, HOUR TO, Alphabets, varchar, 20
+HOUR_FROM, HOUR FROM, Alphabets, varchar, 20
+DUPLICATE_CHARGES, DUPLICATE CHARGES, Alphabets, varchar, 2
+EMAIL, EMAIL, Alphabets, varchar, 50
+DISPUTE_REASON_LIST
+REASON_ID, REASON ID, Integers, smallint, ,Y
+REASON, REASON, Alphabets, varchar, 100
+DPAS_USER_LOGIN
+USER_ID, USER ID, Alphabets, varchar, 15
+LAST_LOGIN_DATE, LAST LOGIN DATE, Datetime, datetime2, ,Y
+DUE_DATE
+DUE_DATE_REF_NO, DUE DATE REF NO, Alphabets, varchar, 15
+DUE_DATE_REF_NO, DUE DATE REF NO, Alphabets, varchar, 15
+DUE_DATE, DUE DATE, Datetime, datetime2, ,N
+UP_FILE_NAME, UP FILE NAME, Alphabets, varchar, 150
+STATUS, STATUS, Alphabets, char, 1
+TOTAL_UPLOAD_AMT, TOTAL UPLOAD AMT, Decimal number, numeric, (18|2)
+TOTAL_UPLOAD_QTY, TOTAL UPLOAD QTY, Integers, int, ,N
+BANK_CODE, BANK CODE, Alphabets, varchar, 4
+IS_SEND_EMAIL, IS SEND EMAIL, Alphabets, varchar, 1
+AUTO_MATCH_DPAS_AMT, AUTO MATCH DPAS AMT, Decimal number, numeric, (18|2)
+AUTO_MATCH_DPAS_QTY, AUTO MATCH DPAS QTY, Integers, int, ,N
+UNMATCH_AMT, UNMATCH AMT, Decimal number, numeric, (18|2)
+UNMATCH_QTY, UNMATCH QTY, Integers, int, ,N
+OTHER_AMT, OTHER AMT, Decimal number, numeric, (18|2)
+OTHER_QTY, OTHER QTY, Integers, int, ,N
+EU_USERPROFILE
+USER_ID, USER ID, Alphabets, varchar, 15
+USER_CODE_REF_NO, USER CODE REF NO, Alphabets, varchar, 15
+DESCRIPTION, DESCRIPTION, Alphabets, varchar, 100
+USER_NAME, USER NAME, Alphabets, varchar, 50
+FAIL_LOGIN_COUNTTER, FAIL LOGIN COUNTTER, Alphabets, varchar, 12
+LOCKED, LOCKED, 0 / 1, bit, ,N
+LAST_LOGIN_DATE, LAST LOGIN DATE, Datetime, datetime2, ,N
+LAST_PASSWORD_CHANGE_DATE, LAST PASSWORD CHANGE DATE, Datetime, datetime2, ,N
+PASSWORD, PASSWORD, Alphabets, varchar, 15
+EMAIL, EMAIL, Alphabets, varchar, 100
+POST, POST, Alphabets, varchar, 20
+CREATE_DATE, CREATE DATE, Datetime, datetime2, ,N
+LAST_UPDATE_DATE, LAST UPDATE DATE, Datetime, datetime2, ,N
+LAST_UPDATE_USER, LAST UPDATE USER, Alphabets, varchar, 15
+USER_REF, USER REF, Alphabets, varchar, 20
+PCS_ACCESS_LEVEL, PCS ACCESS LEVEL, Alphabets, varchar, 1
+USER_STATUS_ID, USER STATUS ID, Integers, tinyint, ,N
+EXCEPTION_USERCODE
+PAYMENT_NO, PAYMENT NO, Alphabets, varchar, 20
+SEQ_NO, SEQ NO, Integers, smallint, ,Y
+USERCODE, USERCODE, Alphabets, varchar, 40
+AMOUNT, AMOUNT, Decimal number, numeric, (18|2)
+PROCESS_DATE, PROCESS DATE, Datetime, datetime2, ,N
+TRANS_ID, TRANS ID, Alphabets, varchar, 7
+IS_NEW, IS NEW, Alphabets, char, 1
+UPD_USER, UPD USER, Alphabets, varchar, 15
+IS_EU, IS EU, Alphabets, char, 1
+FEE_CATAGORY
+CODE, CODE, Alphabets, char, 1
+DESCRIPTION, DESCRIPTION, Alphabets, char, 100
+DISPLAY_SEQ, DISPLAY SEQ, Integers, smallint, ,Y
+FEE_TYPE
+FEE_NAME, FEE NAME, Alphabets, varchar, 100
+FEE_CATAGORY_CODE, FEE CATAGORY CODE, Alphabets, char, 1
+IGNORED, IGNORED, 0 / 1, bit, ,Y
+FUNCTION
+ID, ID, Alphabets, varchar, 20
+Description, Description, Alphabets, varchar, 255
+ACTION, ACTION, Alphabets, varchar, 255
+Controller, Controller, Alphabets, varchar, 255
+GFMIS_AP_LOG
+BATCHREF, BATCHREF, Alphabets, varchar, 20
+SUBMITUSER, SUBMITUSER, Alphabets, varchar, 20
+SUBMITDATE, SUBMITDATE, Datetime, datetime2, ,N
+INBOUNDFILE, INBOUNDFILE, Alphabets, varchar, 50
+RETURNFILE, RETURNFILE, Alphabets, varchar, 50
+STATUS, STATUS, Alphabets, varchar, 10
+MESSAGE, MESSAGE, Alphabets, varchar, -1
+ISEMAILSENDSUCCESS, ISEMAILSENDSUCCESS, Alphabets, varchar, 1
+ID, ID, Alphabets, varchar, 20
+INVNUM, INVNUM, Alphabets, varchar, 50
+GFMIS_BATCH_HISTORY
+BATCHREF, BATCHREF, Alphabets, varchar, 20
+INVNUM, INVNUM, Alphabets, varchar, 50
+DVN, DVN, Alphabets, varchar, 15
+IGNORED_CHARGES
+TRANS_ID, TRANS ID, Alphabets, varchar, 7
+DUE_DATE_REF_NO, DUE DATE REF NO, Alphabets, varchar, 15
+CARDHOLDER_LIMIT, CARDHOLDER LIMIT, Decimal number, numeric, (18|2)
+CARD_STATUS, CARD STATUS, Alphabets, varchar, 1
+BILLING_AMT_CRE, BILLING AMT CRE, Decimal number, numeric, (18|2)
+BILLING_AMT, BILLING AMT, Decimal number, numeric, (18|2)
+TRANS_DESC, TRANS DESC, Alphabets, varchar, 100
+TRANS_AMT_CRE, TRANS AMT CRE, Decimal number, numeric, (18|2)
+TRANS_AMT, TRANS AMT, Decimal number, numeric, (18|2)
+TRANS_DATE, TRANS DATE, Datetime, datetime2, ,N
+TRANS_STATUS_CODE, TRANS STATUS CODE, Alphabets, varchar, 1
+POSTED_DATE, POSTED DATE, Datetime, datetime2, ,N
+ACQ_REF_NO, ACQ REF NO, Alphabets, varchar, 23
+MERCHANT_CATEGORY_CODE, MERCHANT CATEGORY CODE, Integers, smallint, ,N
+MERCHANT_COUNTRY_CODE, MERCHANT COUNTRY CODE, Alphabets, varchar, 3
+CUST_REF_ID, CUST REF ID, Alphabets, varchar, 17
+ORDER_NO, ORDER NO, Alphabets, varchar, 25
+COMMODITY_DESC, COMMODITY DESC, Alphabets, varchar, 50
+DISPUTED, DISPUTED, Alphabets, char, 1
+PCARD_NO, PCARD NO, Alphabets, varchar, 16
+LAST_UPDATE_USER, LAST UPDATE USER, Alphabets, varchar, 15
+BU_NAME, BU NAME, Alphabets, varchar, 30
+USERCODE_SEQNO, USERCODE SEQNO, Integers, smallint, ,N
+NOTIFY_STATUS, NOTIFY STATUS, Alphabets, char, 1
+IGNORED, IGNORED, Alphabets, char, 1
+REJECT_DESC, REJECT DESC, Alphabets, varchar, 200
+C_TRANS_ID, C TRANS ID, Alphabets, varchar, 7
+PUSER_SUBMIT_DATE, PUSER SUBMIT DATE, Datetime, datetime2, ,N
+FEE_DISPUTE_AMT, FEE DISPUTE AMT, Decimal number, numeric, (18|2)
+ACCEPTED, ACCEPTED, Alphabets, varchar, 1
+TRANS_TYPE_ID, TRANS TYPE ID, Integers, smallint, ,N
+FOREIGN_AMT, FOREIGN AMT, Decimal number, numeric, (18|2)
+FOREIGN_CUR, FOREIGN CUR, Alphabets, varchar, 3
+IGNOREDITEM
+ITEM_NAME, ITEM NAME, Alphabets, varchar, 40
+MATCHED_DPA_PAYMENT
+TRANS_ID, TRANS ID, Alphabets, varchar, 7
+PAYMENT_NO, PAYMENT NO, Alphabets, varchar, 20
+DPA_CRI, DPA CRI, Alphabets, varchar, 17
+MENU_ITEM
+ID, ID, Integers, int, ,Y
+Parent_ID, Parent ID, Integers, int, ,N
+DESCRIPTION, DESCRIPTION, Alphabets, varchar, 255
+FUNCTION_ID, FUNCTION ID, Alphabets, varchar, 20
+PAY_METHOD
+ID, ID, Integers, int, ,Y
+DESCRIPTION, DESCRIPTION, Alphabets, varchar, 30
+PAYMENTCONTROL
+PAYMENT_CONTROL_REF_NO, PAYMENT CONTROL REF NO, Alphabets, varchar, 15
+DEPT_CODE, DEPT CODE, Alphabets, varchar, 2
+SOURCE, SOURCE, Alphabets, varchar, 1
+SYSTEM_ID, SYSTEM ID, Alphabets, varchar, 4
+SYSTEM_TYPE, SYSTEM TYPE, Alphabets, varchar, 8
+FIN_YR, FIN YR, Alphabets, varchar, 2
+PAY_TYPE, PAY TYPE, Alphabets, varchar, 1
+PAY_NAME, PAY NAME, Alphabets, varchar, 1
+PAY_OFFICE, PAY OFFICE, Alphabets, varchar, 3
+STATISTIC_IND, STATISTIC IND, Alphabets, varchar, 1
+COMMITMENT_IND, COMMITMENT IND, Alphabets, varchar, 1
+ATTACHMENT_IND, ATTACHMENT IND, Alphabets, varchar, 1
+CRN, CRN, Alphabets, varchar, 9
+NEXT_AUTH_UID, NEXT AUTH UID, Alphabets, varchar, 12
+PREPARED_UID, PREPARED UID, Alphabets, varchar, 12
+INV_DESC1, INV DESC1, Alphabets, varchar, 30
+INV_DESC2, INV DESC2, Alphabets, varchar, 30
+INV_REC_DATE, INV REC DATE, Datetime, datetime2, ,N
+UPD_UID, UPD UID, Alphabets, varchar, 10
+UPD_DATE, UPD DATE, Datetime, datetime2, ,N
+PAYEE_DESC1, PAYEE DESC1, Alphabets, varchar, 40
+PAYEE_DESC2, PAYEE DESC2, Alphabets, varchar, 40
+VIO, VIO, Alphabets, varchar, 6
+NATURE_OF_PAYMENT, NATURE OF PAYMENT, Alphabets, varchar, 1
+LATEST_GEN_DATE, LATEST GEN DATE, Datetime, datetime2, ,N
+LATEST_SEQUENCE, LATEST SEQUENCE, Integers, smallint, ,N
+DISPUTE_REPORT_TEMPLATE, DISPUTE REPORT TEMPLATE, Alphabets, varchar, 100
+SUFFIX_SEQUENCE, SUFFIX SEQUENCE, Alphabets, varchar, 2
+DEPT_NAME, DEPT NAME, Alphabets, varchar, 100
+FACILITY_ACCT_NO, FACILITY ACCT NO, Alphabets, varchar, 16
+PAY_METHOD_ID, PAY METHOD ID, Integers, int, ,N
+PCMS_UPLOAD
+ID, ID, Integers, int, ,Y
+BANK_CODE, BANK CODE, Alphabets, varchar, 4
+file_name, file name, Alphabets, varchar, 100
+TOTAL_COUNT, TOTAL COUNT, Integers, int, ,N
+TOTAL_AMOUNT, TOTAL AMOUNT, Decimal number, numeric, (18|2)
+DATA_TYPE, DATA TYPE, Alphabets, varchar, 1
+UPLOAD_TIME, UPLOAD TIME, Datetime, datetime2, ,Y
+REFERENCEID, REFERENCEID, Alphabets, varchar, 50
+PCMSDATA
+USERNAME, USERNAME, Alphabets, varchar, 30
+LASTUPDATE, LASTUPDATE, Datetime, datetime2, ,N
+REFERENCEID, REFERENCEID, Alphabets, varchar, 50
+REFERENCEID, REFERENCEID, Alphabets, varchar, 50
+RETURNAMOUNT, RETURNAMOUNT, Decimal number, numeric, (7|2)
+DEPT, DEPT, Alphabets, varchar, 30
+DOCUMENTNO, DOCUMENTNO, Alphabets, varchar, 50
+ENGLISHSUPPLIER1, ENGLISHSUPPLIER1, Alphabets, varchar, 100
+ENGLISHSUPPLIER2, ENGLISHSUPPLIER2, Alphabets, varchar, 100
+STATUS, STATUS, Alphabets, varchar, 1
+UPLOADOPR, UPLOADOPR, Alphabets, varchar, 50
+APPROVALDATE, APPROVALDATE, Datetime, datetime2, ,N
+PCSTRANSID, PCSTRANSID, Alphabets, varchar, 50
+PCS_ACTING_APPROVER
+PCARD_NO, PCARD NO, Alphabets, varchar, 16
+DUE_DATE_REF_NO, DUE DATE REF NO, Alphabets, varchar, 15
+ACTING_USER_ID, ACTING USER ID, Alphabets, varchar, 15
+LUPDUSER, LUPDUSER, Alphabets, varchar, 15
+LUPDTIME, LUPDTIME, Datetime, datetime2, ,Y
+PCS_BROADCAST_MSG
+ID, ID, Integers, int, ,Y
+IS_MSG_HEADER, IS MSG HEADER, 0 / 1, bit, ,Y
+MSG_TXT, MSG TXT, Alphabets, nvarchar, 2048
+EFF_START_DATE, EFF START DATE, Datetime, datetime2, ,Y
+EFF_END_DATE, EFF END DATE, Datetime, datetime2, ,Y
+LUPDUSER, LUPDUSER, Alphabets, varchar, 15
+LUPDTIME, LUPDTIME, Datetime, datetime2, ,Y
+PCS_EMAIL
+id, id, Integers, int, ,Y
+receipient, receipient, Alphabets, nvarchar, 8000
+cc, cc, Alphabets, nvarchar, 8000
+bcc, bcc, Alphabets, nvarchar, 8000
+subject, subject, Alphabets, nvarchar, 8000
+content, content, Alphabets, nvarchar, -1
+sent_flag, sent flag, Alphabets, char, 1
+tmp_id, tmp id, Integers, int, ,Y
+sent_error, sent error, Alphabets, nvarchar, 2000
+create_by, create by, Alphabets, varchar, 15
+create_datetime, create datetime, Datetime, datetime2, ,Y
+modify_by, modify by, Alphabets, varchar, 15
+modify_datetime, modify datetime, Datetime, datetime2, ,Y
+PCS_REMINDER
+CODE, CODE, Alphabets, char, 6
+ENABLE, ENABLE, 0 / 1, bit, ,Y
+DAY_BEFORE, DAY BEFORE, Integers, smallint, ,Y
+CC_LIST, CC LIST, Alphabets, nvarchar, 200
+SUBJECT, SUBJECT, Alphabets, nvarchar, 1000
+CONTENT, CONTENT, Alphabets, nvarchar, 2048
+LUPDTIME, LUPDTIME, Datetime, datetime2, ,Y
+LUPDUSER, LUPDUSER, Alphabets, varchar, 15
+PCS_SYS_MSG
+ID, ID, Alphabets, nvarchar, 60
+Type, Type, Alphabets, nvarchar, 2
+TXT, TXT, Alphabets, nvarchar, 1000
+Remarks, Remarks, Alphabets, nvarchar, 510
+creation, creation, Datetime, datetime2, ,Y
+lupdtime, lupdtime, Datetime, datetime2, ,Y
+lupduser, lupduser, Alphabets, varchar, 15
+PCSUSERCODE
+TRANS_ID, TRANS ID, Alphabets, varchar, 7
+SEQ_NO, SEQ NO, Integers, smallint, ,Y
+USERCODE, USERCODE, Alphabets, varchar, 40
+AMOUNT, AMOUNT, Decimal number, numeric, (18|4)
+ROLE
+ROLE_ID, ROLE ID, Alphabets, varchar, 20
+DESCRIPTION, DESCRIPTION, Alphabets, varchar, 100
+CREATE_DATE, CREATE DATE, Datetime, datetime2, ,N
+LAST_UPDATE_DATE, LAST UPDATE DATE, Datetime, datetime2, ,N
+LAST_UPDATE_USER, LAST UPDATE USER, Alphabets, varchar, 15
+ENABLE, ENABLE, 0 / 1, bit, ,Y
+IS_PCS_ROLE, IS PCS ROLE, 0 / 1, bit, ,Y
+DISPLAY_SEQ, DISPLAY SEQ, Integers, smallint, ,Y
+ROLEFUNCTION
+function_id, function id, Alphabets, varchar, 20
+role_id, role id, Alphabets, varchar, 20
+SEQUENCENO
+PREFIX, PREFIX, Alphabets, varchar, 10
+SEQ_NO, SEQ NO, Decimal number, numeric, (9|0)
+PREFIX1, PREFIX1, Alphabets, varchar, 6
+SYSTEMPROFILE
+PROFILE_ID, PROFILE ID, Integers, smallint, ,Y
+MAX_REC_IN_LISTS, MAX REC IN LISTS, Decimal number, numeric, (3|0)
+ALLOW_DIRECT_LOGIN, ALLOW DIRECT LOGIN, Alphabets, varchar, 1
+PRE_CHK_THERSHOLD, PRE CHK THERSHOLD, Decimal number, numeric, (3|0)
+DPAS_OUTSTANDING_DAY, DPAS OUTSTANDING DAY, Decimal number, numeric, (3|0)
+NOTICE_PCARD_HOLDER, NOTICE PCARD HOLDER, Alphabets, nvarchar, 2048
+NOTICE_PCARD_SPR, NOTICE PCARD SPR, Alphabets, nvarchar, 2048
+HSBC_DISP_HEADER, HSBC DISP HEADER, Alphabets, nvarchar, 300
+HSBC_DISP_ADDR1, HSBC DISP ADDR1, Alphabets, nvarchar, 300
+HSBC_DISP_ADDR2, HSBC DISP ADDR2, Alphabets, nvarchar, 300
+HSBC_DISP_ADDR3, HSBC DISP ADDR3, Alphabets, nvarchar, 300
+CITI_DISP_FAX, CITI DISP FAX, Alphabets, nvarchar, 300
+CITI_DISP_EMAIL, CITI DISP EMAIL, Alphabets, nvarchar, 300
+CITI_DISP_FOOTER, CITI DISP FOOTER, Alphabets, nvarchar, 2048
+TEAM
+TEAM_ID, TEAM ID, Integers, smallint, ,Y
+DESCRIPTION, DESCRIPTION, Alphabets, varchar, 100
+TEAM_CARD_EXCLUDE
+team_id, team id, Integers, smallint, ,Y
+PCARD_NO, PCARD NO, Alphabets, varchar, 16
+EXCLUDE_BY, EXCLUDE BY, Alphabets, varchar, 16
+EXCLUDE_DATETIME, EXCLUDE DATETIME, Datetime, datetime2, ,Y
+TEAMSECTIONMAP
+TEAM_ID, TEAM ID, Integers, smallint, ,Y
+SECTION_CODE, SECTION CODE, Alphabets, varchar, 5
+TRAILER
+COMP_ACC_NUM, COMP ACC NUM, Alphabets, varchar, 5
+DUE_DATE_REF_NO, DUE DATE REF NO, Alphabets, varchar, 15
+COMP_NAME, COMP NAME, Alphabets, varchar, 19
+BILLING_DATE, BILLING DATE, Datetime, datetime2, ,N
+DETAIL_REC_CNT, DETAIL REC CNT, Integers, int, ,N
+OPENING_BAL, OPENING BAL, Decimal number, numeric, (18|2)
+OPENING_BAL_CRE, OPENING BAL CRE, Alphabets, varchar, 30
+CLOSING_BAL, CLOSING BAL, Decimal number, numeric, (18|2)
+CLOSING_BAL_CRE, CLOSING BAL CRE, Alphabets, varchar, 30
+COMP_FAC_AMT, COMP FAC AMT, Decimal number, numeric, (18|2)
+CUR_MON_PURCHASE_AMT, CUR MON PURCHASE AMT, Decimal number, numeric, (18|2)
+CUR_MON_PURCHASE_AMT_CRE, CUR MON PURCHASE AMT CRE, Alphabets, varchar, 30
+CUR_MON_CASH_ADV_AMT, CUR MON CASH ADV AMT, Decimal number, numeric, (18|2)
+CUR_MON_CASH_ADV_AMT_CRE, CUR MON CASH ADV AMT CRE, Alphabets, varchar, 30
+CUR_MON_TOTAL_CHARGE_AMT, CUR MON TOTAL CHARGE AMT, Decimal number, numeric, (18|2)
+CUR_MON_TOTAL_CHARGE_AMT_CRE, CUR MON TOTAL CHARGE AMT CRE, Alphabets, varchar, 30
+CUR_MON_CREDIT_ADJ_AMT, CUR MON CREDIT ADJ AMT, Decimal number, numeric, (18|2)
+CUR_MON_CREDIT_ADJ_AMT_CRE, CUR MON CREDIT ADJ AMT CRE, Alphabets, varchar, 30
+CUR_MON_DEBIT_ADJ_AMT, CUR MON DEBIT ADJ AMT, Decimal number, numeric, (18|2)
+CUR_MON_DEBIT_ADJ_AMT_CRE, CUR MON DEBIT ADJ AMT CRE, Alphabets, varchar, 30
+CUR_MON_TOTAL_PAYMENT_AMT, CUR MON TOTAL PAYMENT AMT, Decimal number, numeric, (18|2)
+CUR_MON_TOTAL_PAYMENT_AMT_CRE, CUR MON TOTAL PAYMENT AMT CRE, Alphabets, varchar, 30
+TRANS_STATUS
+CODE, CODE, Alphabets, varchar, 1
+DESCRIPTION, DESCRIPTION, Alphabets, varchar, 100
+DISPLAY_SEQ, DISPLAY SEQ, Integers, smallint, ,Y
+TRANS_TYPE
+ID, ID, Integers, smallint, ,Y
+DESCRIPTION, DESCRIPTION, Alphabets, varchar, 100
+DISPLAY_SEQ, DISPLAY SEQ, Integers, smallint, ,Y
+UC_FORMAT
+INITIALCODE, INITIALCODE, Alphabets, varchar, 20
+TNOC, TNOC, Integers, smallint, ,Y
+FORMAT_ID, FORMAT ID, Integers, smallint, ,Y
+USER_STATUS
+ID, ID, Integers, tinyint, ,Y
+DESCRIPTION, DESCRIPTION, Alphabets, varchar, 100
+DISPLAY_SEQ, DISPLAY SEQ, Integers, smallint, ,Y
+USERCODE
+USER_CODE, USER CODE, Alphabets, varchar, 40
+UPDUID, UPDUID, Alphabets, varchar, 10
+UPD_DATE, UPD DATE, Datetime, datetime2, ,N
+USEROLEMAP
+USER_ID, USER ID, Alphabets, varchar, 15
+ROLE_ID, ROLE ID, Alphabets, varchar, 20
+USERTEAMMAP
+USER_ID, USER ID, Alphabets, varchar, 15
+TEAM_ID, TEAM ID, Integers, smallint, ,Y
+VOUCHER
+DVN, DVN, Alphabets, varchar, 15
+BATCH_BILLING_REF_NO, BATCH BILLING REF NO, Alphabets, varchar, 20
+DEPT_CODE, DEPT CODE, Alphabets, varchar, 2
+SOURCE, SOURCE, Alphabets, varchar, 1
+SYSTEM_ID, SYSTEM ID, Alphabets, varchar, 7
+PAYMENT_TYPE, PAYMENT TYPE, Alphabets, varchar, 1
+NATURE_OF_PAYMENT, NATURE OF PAYMENT, Alphabets, varchar, 1
+PAYMENT_OFFICE, PAYMENT OFFICE, Alphabets, varchar, 3
+FINANCIAL_YR, FINANCIAL YR, Alphabets, varchar, 2
+CRN, CRN, Alphabets, varchar, 9
+TIME_STAMP, TIME STAMP, Datetime, datetime2, ,N
+PAY_METHOD_ID, PAY METHOD ID, Integers, int, ,N
+VOUCHERDETAIL
+DVN, DVN, Alphabets, varchar, 15
+USER_CODE, USER CODE, Alphabets, varchar, 40
+AMOUNT, AMOUNT, Decimal number, numeric, (18|2)

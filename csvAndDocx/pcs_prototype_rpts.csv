@@ -1,0 +1,19 @@
+RPT001,Statistics on Uploaded Bank Transactions,dueRange
+RPT002,List of Other Bank Transactions,due
+RPT003,P-Card Bank Statement Report,due|branch|section|holder|summary003
+RPT004,P-Card Transactions Charged to User Codes by Branch/Section,dueRange|branch|section|ucType|hasGen|summary004
+RPT005,List of P-Card Bank Transactions Matched with DPAS Fax Orders,due|section|holder|transDate|cri
+RPT006,List of Outstanding (Not Yet Certified) P-Card Bank Transactions,due|team|section|tranStatus|holder
+RPT007,List of Dispute / Adjustment P-Card Transactions,dueRange|section|holder|disputeAdjust
+RPT008,List of P-Card Bank Transactions Certified by P-Card Supervisors,dueRange|section|holder|tranDesc|uc
+RPT009,List of P-Card Transactions Charged to Incorrect GFMIS User Codes,due
+RPT010,List of P-Card Transactions with Amended User Code,due|section|holder
+RPT011,List of P-Card Transactions,due
+RPT012,Reconciliation on Total Certified P-Card Bank Transactions Amount against Bank Statement,due|stBalance
+RPT013,Details on Generated File for Creation of GFMIS Payment Vouchers,due
+RPT014,List of P-Card Transactions Arranged for Payment,section|holder|tranDesc|uc|summary014
+RPT015,Log on Special Handling by E&SU Supervisor,due
+RPT016,Log on User Code Amended by E&SU Clerk,due
+RPT017,List of P-Card Holder  ,section|statusCard|credit
+RPT018,List of E&SU User ,userType|userStatus
+RPT019,Monthly Payment Amount by P-card,dueRange|section|cardNum
